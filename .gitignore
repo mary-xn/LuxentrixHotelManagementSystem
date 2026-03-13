@@ -1,0 +1,24 @@
+# Build folders
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / VSCode (optional but good)
+.idea/
+.vscode/
+
+# NuGet packages (if not using PackageReference)
+packages/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
