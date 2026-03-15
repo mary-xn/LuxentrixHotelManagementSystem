@@ -1,113 +1,113 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\",
+  "WorkspaceRootPath": "C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|c:\\users\\mary joy sembrero\\desktop\\c#\\luxentrixcontentmanagementsystem\\usercontrols\\users forms\\usersmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|c:\\users\\mary joy sembrero\\desktop\\github\\luxentrixhotelmanagementsystem\\systems\\content-management-system\\luxentrixcontentmanagementsystem\\usercontrols\\users forms\\usersmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|solutionrelative:usercontrols\\users forms\\usersmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\usercontrols\\users forms\\usersmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\usercontrols\\users forms\\usersmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|solutionrelative:usercontrols\\users forms\\usersmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|c:\\users\\mary joy sembrero\\desktop\\c#\\luxentrixcontentmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|c:\\users\\mary joy sembrero\\desktop\\github\\luxentrixhotelmanagementsystem\\systems\\content-management-system\\luxentrixcontentmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|c:\\users\\mary joy sembrero\\desktop\\c#\\luxentrixcontentmanagementsystem\\maindashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|c:\\users\\mary joy sembrero\\desktop\\github\\luxentrixhotelmanagementsystem\\systems\\content-management-system\\luxentrixcontentmanagementsystem\\maindashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|solutionrelative:maindashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|c:\\users\\mary joy sembrero\\desktop\\c#\\luxentrixcontentmanagementsystem\\userstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|c:\\users\\mary joy sembrero\\desktop\\github\\luxentrixhotelmanagementsystem\\systems\\content-management-system\\luxentrixcontentmanagementsystem\\userstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|solutionrelative:userstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|c:\\users\\mary joy sembrero\\desktop\\c#\\luxentrixcontentmanagementsystem\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|c:\\users\\mary joy sembrero\\desktop\\github\\luxentrixhotelmanagementsystem\\systems\\content-management-system\\luxentrixcontentmanagementsystem\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|solutionrelative:usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|c:\\users\\mary joy sembrero\\desktop\\c#\\luxentrixcontentmanagementsystem\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|c:\\users\\mary joy sembrero\\desktop\\github\\luxentrixhotelmanagementsystem\\systems\\content-management-system\\luxentrixcontentmanagementsystem\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|solutionrelative:roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|c:\\users\\mary joy sembrero\\desktop\\c#\\luxentrixcontentmanagementsystem\\accesscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|c:\\users\\mary joy sembrero\\desktop\\github\\luxentrixhotelmanagementsystem\\systems\\content-management-system\\luxentrixcontentmanagementsystem\\accesscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|solutionrelative:accesscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|c:\\users\\mary joy sembrero\\desktop\\c#\\luxentrixcontentmanagementsystem\\activitylogstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|c:\\users\\mary joy sembrero\\desktop\\github\\luxentrixhotelmanagementsystem\\systems\\content-management-system\\luxentrixcontentmanagementsystem\\activitylogstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|solutionrelative:activitylogstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\maindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\maindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|solutionrelative:maindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|c:\\users\\mary joy sembrero\\desktop\\c#\\luxentrixcontentmanagementsystem\\usercontrols\\maindashboard\\changepasswordform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|c:\\users\\mary joy sembrero\\desktop\\github\\luxentrixhotelmanagementsystem\\systems\\content-management-system\\luxentrixcontentmanagementsystem\\usercontrols\\maindashboard\\changepasswordform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|solutionrelative:usercontrols\\maindashboard\\changepasswordform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\usercontrols\\maindashboard\\changepasswordform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\usercontrols\\maindashboard\\changepasswordform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|solutionrelative:usercontrols\\maindashboard\\changepasswordform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\usercontrols\\activity logs\\activitylog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\usercontrols\\activity logs\\activitylog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|solutionrelative:usercontrols\\activity logs\\activitylog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|c:\\users\\mary joy sembrero\\desktop\\c#\\luxentrixcontentmanagementsystem\\maindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|c:\\users\\mary joy sembrero\\desktop\\github\\luxentrixhotelmanagementsystem\\systems\\content-management-system\\luxentrixcontentmanagementsystem\\maindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|solutionrelative:maindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|c:\\users\\mary joy sembrero\\desktop\\c#\\luxentrixcontentmanagementsystem\\usercontrols\\maindashboard\\changenameform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|c:\\users\\mary joy sembrero\\desktop\\github\\luxentrixhotelmanagementsystem\\systems\\content-management-system\\luxentrixcontentmanagementsystem\\usercontrols\\maindashboard\\changenameform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|solutionrelative:usercontrols\\maindashboard\\changenameform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\usercontrols\\maindashboard\\changenameform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\usercontrols\\maindashboard\\changenameform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|solutionrelative:usercontrols\\maindashboard\\changenameform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|c:\\users\\mary joy sembrero\\desktop\\c#\\luxentrixcontentmanagementsystem\\usercontrols\\room forms\\roomview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|c:\\users\\mary joy sembrero\\desktop\\github\\luxentrixhotelmanagementsystem\\systems\\content-management-system\\luxentrixcontentmanagementsystem\\usercontrols\\room forms\\roomview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|solutionrelative:usercontrols\\room forms\\roomview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\usercontrols\\room forms\\addroomform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\usercontrols\\room forms\\addroomform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|solutionrelative:usercontrols\\room forms\\addroomform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\usercontrols\\room forms\\roomview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\usercontrols\\room forms\\roomview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|solutionrelative:usercontrols\\room forms\\roomview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\usercontrols\\room forms\\roomform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\usercontrols\\room forms\\roomform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|solutionrelative:usercontrols\\room forms\\roomform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\usercontrols\\users forms\\adduserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\usercontrols\\users forms\\adduserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|solutionrelative:usercontrols\\users forms\\adduserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\usercontrols\\loyalty rewards\\addgiftcodeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\usercontrols\\loyalty rewards\\addgiftcodeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|solutionrelative:usercontrols\\loyalty rewards\\addgiftcodeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\usercontrols\\maindashboard\\dashboardview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\usercontrols\\maindashboard\\dashboardview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|solutionrelative:usercontrols\\maindashboard\\dashboardview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\usercontrols\\loyalty rewards\\addvoucherform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\usercontrols\\loyalty rewards\\addvoucherform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|solutionrelative:usercontrols\\loyalty rewards\\addvoucherform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\usercontrols\\loyalty rewards\\addloyaltyrewardsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\usercontrols\\loyalty rewards\\addloyaltyrewardsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|solutionrelative:usercontrols\\loyalty rewards\\addloyaltyrewardsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\usercontrols\\amenities\\addfoodmenuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\usercontrols\\amenities\\addfoodmenuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|solutionrelative:usercontrols\\amenities\\addfoodmenuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|c:\\users\\mary joy sembrero\\desktop\\c#\\luxentrixcontentmanagementsystem\\usercontrols\\services forms\\servicesview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|c:\\users\\mary joy sembrero\\desktop\\github\\luxentrixhotelmanagementsystem\\systems\\content-management-system\\luxentrixcontentmanagementsystem\\usercontrols\\services forms\\servicesview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FEB3CFC-29C8-457E-81D5-FF08D8A507D2}|LuxentrixContentManagementSystem.csproj|solutionrelative:usercontrols\\services forms\\servicesview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -132,9 +132,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "usersManagement.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\UserControls\\Users Forms\\usersManagement.cs",
+              "DocumentMoniker": "C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\UserControls\\Users Forms\\usersManagement.cs",
               "RelativeDocumentMoniker": "UserControls\\Users Forms\\usersManagement.cs",
-              "ToolTip": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\UserControls\\Users Forms\\usersManagement.cs [Design]",
+              "ToolTip": "C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\UserControls\\Users Forms\\usersManagement.cs [Design]",
               "RelativeToolTip": "UserControls\\Users Forms\\usersManagement.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-22T13:22:10.955Z",
@@ -144,9 +144,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "usersManagement.cs",
-              "DocumentMoniker": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\UserControls\\Users Forms\\usersManagement.cs",
+              "DocumentMoniker": "C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\UserControls\\Users Forms\\usersManagement.cs",
               "RelativeDocumentMoniker": "UserControls\\Users Forms\\usersManagement.cs",
-              "ToolTip": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\UserControls\\Users Forms\\usersManagement.cs",
+              "ToolTip": "C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\UserControls\\Users Forms\\usersManagement.cs",
               "RelativeToolTip": "UserControls\\Users Forms\\usersManagement.cs",
               "ViewState": "AgIAACYBAAAAAAAAAAAIwC0BAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -157,9 +157,9 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "AccessControl.cs",
-              "DocumentMoniker": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\AccessControl.cs",
+              "DocumentMoniker": "C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\AccessControl.cs",
               "RelativeDocumentMoniker": "AccessControl.cs",
-              "ToolTip": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\AccessControl.cs",
+              "ToolTip": "C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\AccessControl.cs",
               "RelativeToolTip": "AccessControl.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -169,9 +169,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "UserSession.cs",
-              "DocumentMoniker": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\UserSession.cs",
+              "DocumentMoniker": "C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\UserSession.cs",
               "RelativeDocumentMoniker": "UserSession.cs",
-              "ToolTip": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\UserSession.cs",
+              "ToolTip": "C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\UserSession.cs",
               "RelativeToolTip": "UserSession.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -181,9 +181,9 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Roles.cs",
-              "DocumentMoniker": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\Roles.cs",
+              "DocumentMoniker": "C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\Roles.cs",
               "RelativeDocumentMoniker": "Roles.cs",
-              "ToolTip": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\Roles.cs",
+              "ToolTip": "C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\Roles.cs",
               "RelativeToolTip": "Roles.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -193,9 +193,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -205,9 +205,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "MainDashboard.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\MainDashboard.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\MainDashboard.Designer.cs",
               "RelativeDocumentMoniker": "MainDashboard.Designer.cs",
-              "ToolTip": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\MainDashboard.Designer.cs",
+              "ToolTip": "C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\MainDashboard.Designer.cs",
               "RelativeToolTip": "MainDashboard.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYEAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -217,9 +217,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "UserStore.cs",
-              "DocumentMoniker": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\UserStore.cs",
+              "DocumentMoniker": "C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\UserStore.cs",
               "RelativeDocumentMoniker": "UserStore.cs",
-              "ToolTip": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\UserStore.cs",
+              "ToolTip": "C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\UserStore.cs",
               "RelativeToolTip": "UserStore.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAwwDgAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -229,9 +229,9 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "ActivityLogStore.cs",
-              "DocumentMoniker": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\ActivityLogStore.cs",
+              "DocumentMoniker": "C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\ActivityLogStore.cs",
               "RelativeDocumentMoniker": "ActivityLogStore.cs",
-              "ToolTip": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\ActivityLogStore.cs",
+              "ToolTip": "C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\ActivityLogStore.cs",
               "RelativeToolTip": "ActivityLogStore.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -241,10 +241,10 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "MainDashboard.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\MainDashboard.cs",
+              "DocumentMoniker": "C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\MainDashboard.cs",
               "RelativeDocumentMoniker": "MainDashboard.cs",
               "ToolTip": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\MainDashboard.cs [Design]",
-              "RelativeToolTip": "MainDashboard.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\C#\\LuxentrixContentManagementSystem\\MainDashboard.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-08T15:30:20.347Z"
             },
@@ -252,9 +252,9 @@
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "ChangePasswordForm.cs",
-              "DocumentMoniker": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\UserControls\\MainDashBoard\\ChangePasswordForm.cs",
+              "DocumentMoniker": "C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\UserControls\\MainDashBoard\\ChangePasswordForm.cs",
               "RelativeDocumentMoniker": "UserControls\\MainDashBoard\\ChangePasswordForm.cs",
-              "ToolTip": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\UserControls\\MainDashBoard\\ChangePasswordForm.cs",
+              "ToolTip": "C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\UserControls\\MainDashBoard\\ChangePasswordForm.cs",
               "RelativeToolTip": "UserControls\\MainDashBoard\\ChangePasswordForm.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -265,10 +265,10 @@
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "ChangePasswordForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\UserControls\\MainDashBoard\\ChangePasswordForm.cs",
+              "DocumentMoniker": "C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\UserControls\\MainDashBoard\\ChangePasswordForm.cs",
               "RelativeDocumentMoniker": "UserControls\\MainDashBoard\\ChangePasswordForm.cs",
               "ToolTip": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\UserControls\\MainDashBoard\\ChangePasswordForm.cs [Design]",
-              "RelativeToolTip": "UserControls\\MainDashBoard\\ChangePasswordForm.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\C#\\LuxentrixContentManagementSystem\\UserControls\\MainDashBoard\\ChangePasswordForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-22T13:11:59.682Z"
             },
@@ -276,10 +276,10 @@
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "ActivityLog.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\UserControls\\Activity Logs\\ActivityLog.cs",
+              "DocumentMoniker": "C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\UserControls\\Activity Logs\\ActivityLog.cs",
               "RelativeDocumentMoniker": "UserControls\\Activity Logs\\ActivityLog.cs",
               "ToolTip": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\UserControls\\Activity Logs\\ActivityLog.cs [Design]",
-              "RelativeToolTip": "UserControls\\Activity Logs\\ActivityLog.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\C#\\LuxentrixContentManagementSystem\\UserControls\\Activity Logs\\ActivityLog.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-23T00:49:26.643Z"
             },
@@ -287,10 +287,10 @@
               "$type": "Document",
               "DocumentIndex": 15,
               "Title": "changeNameForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\UserControls\\MainDashBoard\\changeNameForm.cs",
+              "DocumentMoniker": "C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\UserControls\\MainDashBoard\\changeNameForm.cs",
               "RelativeDocumentMoniker": "UserControls\\MainDashBoard\\changeNameForm.cs",
               "ToolTip": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\UserControls\\MainDashBoard\\changeNameForm.cs [Design]",
-              "RelativeToolTip": "UserControls\\MainDashBoard\\changeNameForm.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\C#\\LuxentrixContentManagementSystem\\UserControls\\MainDashBoard\\changeNameForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-22T13:33:45.216Z"
             },
@@ -298,9 +298,9 @@
               "$type": "Document",
               "DocumentIndex": 14,
               "Title": "changeNameForm.cs",
-              "DocumentMoniker": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\UserControls\\MainDashBoard\\changeNameForm.cs",
+              "DocumentMoniker": "C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\UserControls\\MainDashBoard\\changeNameForm.cs",
               "RelativeDocumentMoniker": "UserControls\\MainDashBoard\\changeNameForm.cs",
-              "ToolTip": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\UserControls\\MainDashBoard\\changeNameForm.cs",
+              "ToolTip": "C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\UserControls\\MainDashBoard\\changeNameForm.cs",
               "RelativeToolTip": "UserControls\\MainDashBoard\\changeNameForm.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -310,9 +310,9 @@
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "MainDashboard.cs",
-              "DocumentMoniker": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\MainDashboard.cs",
+              "DocumentMoniker": "C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\MainDashboard.cs",
               "RelativeDocumentMoniker": "MainDashboard.cs",
-              "ToolTip": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\MainDashboard.cs",
+              "ToolTip": "C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\MainDashboard.cs",
               "RelativeToolTip": "MainDashboard.cs",
               "ViewState": "AgIAAHUBAAAAAAAAAAAWwIMBAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -322,9 +322,9 @@
               "$type": "Document",
               "DocumentIndex": 16,
               "Title": "RoomView.cs",
-              "DocumentMoniker": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\UserControls\\Room Forms\\RoomView.cs",
+              "DocumentMoniker": "C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\UserControls\\Room Forms\\RoomView.cs",
               "RelativeDocumentMoniker": "UserControls\\Room Forms\\RoomView.cs",
-              "ToolTip": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\UserControls\\Room Forms\\RoomView.cs",
+              "ToolTip": "C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\UserControls\\Room Forms\\RoomView.cs",
               "RelativeToolTip": "UserControls\\Room Forms\\RoomView.cs",
               "ViewState": "AgIAAAMBAAAAAAAAAAASwBcBAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -335,10 +335,10 @@
               "$type": "Document",
               "DocumentIndex": 17,
               "Title": "AddRoomForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\UserControls\\Room Forms\\AddRoomForm.cs",
+              "DocumentMoniker": "C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\UserControls\\Room Forms\\AddRoomForm.cs",
               "RelativeDocumentMoniker": "UserControls\\Room Forms\\AddRoomForm.cs",
               "ToolTip": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\UserControls\\Room Forms\\AddRoomForm.cs [Design]",
-              "RelativeToolTip": "UserControls\\Room Forms\\AddRoomForm.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\C#\\LuxentrixContentManagementSystem\\UserControls\\Room Forms\\AddRoomForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-22T13:06:57.112Z"
             },
@@ -346,10 +346,10 @@
               "$type": "Document",
               "DocumentIndex": 18,
               "Title": "RoomView.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\UserControls\\Room Forms\\RoomView.cs",
+              "DocumentMoniker": "C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\UserControls\\Room Forms\\RoomView.cs",
               "RelativeDocumentMoniker": "UserControls\\Room Forms\\RoomView.cs",
               "ToolTip": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\UserControls\\Room Forms\\RoomView.cs [Design]",
-              "RelativeToolTip": "UserControls\\Room Forms\\RoomView.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\C#\\LuxentrixContentManagementSystem\\UserControls\\Room Forms\\RoomView.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-22T13:22:50.823Z"
             },
@@ -357,10 +357,10 @@
               "$type": "Document",
               "DocumentIndex": 19,
               "Title": "RoomForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\UserControls\\Room Forms\\RoomForm.cs",
+              "DocumentMoniker": "C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\UserControls\\Room Forms\\RoomForm.cs",
               "RelativeDocumentMoniker": "UserControls\\Room Forms\\RoomForm.cs",
               "ToolTip": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\UserControls\\Room Forms\\RoomForm.cs [Design]",
-              "RelativeToolTip": "UserControls\\Room Forms\\RoomForm.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\C#\\LuxentrixContentManagementSystem\\UserControls\\Room Forms\\RoomForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-22T13:22:49.661Z"
             },
@@ -368,10 +368,10 @@
               "$type": "Document",
               "DocumentIndex": 20,
               "Title": "addUserForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\UserControls\\Users Forms\\addUserForm.cs",
+              "DocumentMoniker": "C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\UserControls\\Users Forms\\addUserForm.cs",
               "RelativeDocumentMoniker": "UserControls\\Users Forms\\addUserForm.cs",
               "ToolTip": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\UserControls\\Users Forms\\addUserForm.cs [Design]",
-              "RelativeToolTip": "UserControls\\Users Forms\\addUserForm.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\C#\\LuxentrixContentManagementSystem\\UserControls\\Users Forms\\addUserForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-22T13:07:05.343Z"
             },
@@ -379,10 +379,10 @@
               "$type": "Document",
               "DocumentIndex": 21,
               "Title": "AddGiftCodeForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\UserControls\\Loyalty Rewards\\AddGiftCodeForm.cs",
+              "DocumentMoniker": "C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\UserControls\\Loyalty Rewards\\AddGiftCodeForm.cs",
               "RelativeDocumentMoniker": "UserControls\\Loyalty Rewards\\AddGiftCodeForm.cs",
               "ToolTip": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\UserControls\\Loyalty Rewards\\AddGiftCodeForm.cs [Design]",
-              "RelativeToolTip": "UserControls\\Loyalty Rewards\\AddGiftCodeForm.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\C#\\LuxentrixContentManagementSystem\\UserControls\\Loyalty Rewards\\AddGiftCodeForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-22T13:05:32.134Z"
             },
@@ -390,10 +390,10 @@
               "$type": "Document",
               "DocumentIndex": 23,
               "Title": "AddVoucherForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\UserControls\\Loyalty Rewards\\AddVoucherForm.cs",
+              "DocumentMoniker": "C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\UserControls\\Loyalty Rewards\\AddVoucherForm.cs",
               "RelativeDocumentMoniker": "UserControls\\Loyalty Rewards\\AddVoucherForm.cs",
               "ToolTip": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\UserControls\\Loyalty Rewards\\AddVoucherForm.cs [Design]",
-              "RelativeToolTip": "UserControls\\Loyalty Rewards\\AddVoucherForm.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\C#\\LuxentrixContentManagementSystem\\UserControls\\Loyalty Rewards\\AddVoucherForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-22T13:06:50.782Z"
             },
@@ -401,10 +401,10 @@
               "$type": "Document",
               "DocumentIndex": 24,
               "Title": "AddLoyaltyRewardsForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\UserControls\\Loyalty Rewards\\AddLoyaltyRewardsForm.cs",
+              "DocumentMoniker": "C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\UserControls\\Loyalty Rewards\\AddLoyaltyRewardsForm.cs",
               "RelativeDocumentMoniker": "UserControls\\Loyalty Rewards\\AddLoyaltyRewardsForm.cs",
               "ToolTip": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\UserControls\\Loyalty Rewards\\AddLoyaltyRewardsForm.cs [Design]",
-              "RelativeToolTip": "UserControls\\Loyalty Rewards\\AddLoyaltyRewardsForm.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\C#\\LuxentrixContentManagementSystem\\UserControls\\Loyalty Rewards\\AddLoyaltyRewardsForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-22T13:06:45.128Z"
             },
@@ -412,10 +412,10 @@
               "$type": "Document",
               "DocumentIndex": 22,
               "Title": "DashboardView.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\UserControls\\MainDashBoard\\DashboardView.cs",
+              "DocumentMoniker": "C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\UserControls\\MainDashBoard\\DashboardView.cs",
               "RelativeDocumentMoniker": "UserControls\\MainDashBoard\\DashboardView.cs",
               "ToolTip": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\UserControls\\MainDashBoard\\DashboardView.cs [Design]",
-              "RelativeToolTip": "UserControls\\MainDashBoard\\DashboardView.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\C#\\LuxentrixContentManagementSystem\\UserControls\\MainDashBoard\\DashboardView.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-08T15:26:56.749Z"
             },
@@ -423,10 +423,10 @@
               "$type": "Document",
               "DocumentIndex": 25,
               "Title": "addFoodMenuForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\UserControls\\Amenities\\addFoodMenuForm.cs",
+              "DocumentMoniker": "C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\UserControls\\Amenities\\addFoodMenuForm.cs",
               "RelativeDocumentMoniker": "UserControls\\Amenities\\addFoodMenuForm.cs",
               "ToolTip": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\UserControls\\Amenities\\addFoodMenuForm.cs [Design]",
-              "RelativeToolTip": "UserControls\\Amenities\\addFoodMenuForm.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\C#\\LuxentrixContentManagementSystem\\UserControls\\Amenities\\addFoodMenuForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-22T13:05:12.72Z"
             },
@@ -434,9 +434,9 @@
               "$type": "Document",
               "DocumentIndex": 26,
               "Title": "ServicesView.cs",
-              "DocumentMoniker": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\UserControls\\Services Forms\\ServicesView.cs",
+              "DocumentMoniker": "C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\UserControls\\Services Forms\\ServicesView.cs",
               "RelativeDocumentMoniker": "UserControls\\Services Forms\\ServicesView.cs",
-              "ToolTip": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\UserControls\\Services Forms\\ServicesView.cs",
+              "ToolTip": "C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\UserControls\\Services Forms\\ServicesView.cs",
               "RelativeToolTip": "UserControls\\Services Forms\\ServicesView.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

@@ -1674,11 +1674,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\LuxentrixContentManagementSystem.csproj",
+      "projectUniqueName": "C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\LuxentrixContentManagementSystem.csproj",
       "projectName": "LuxentrixContentManagementSystem",
-      "projectPath": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\LuxentrixContentManagementSystem.csproj",
+      "projectPath": "C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\LuxentrixContentManagementSystem.csproj",
       "packagesPath": "C:\\Users\\Mary Joy Sembrero\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mary Joy Sembrero\\Desktop\\C#\\LuxentrixContentManagementSystem\\obj\\",
+      "outputPath": "C:\\Users\\Mary Joy Sembrero\\Desktop\\GitHub\\LuxentrixHotelManagementSystem\\systems\\content-management-system\\LuxentrixContentManagementSystem\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
