@@ -23,6 +23,7 @@ namespace LuxentrixContentManagementSystem.Forms.Food_Menu_Forms
             StyleFoodMenuGrid();
             SetupGridColumns();
             LoadAmenities();
+            
         }
 
         private void StyleFoodMenuGrid()
@@ -49,14 +50,19 @@ namespace LuxentrixContentManagementSystem.Forms.Food_Menu_Forms
 
         private void ResetButtons()
         {
-            foreach (Control ctrl in tagsPanel.Controls)
-            {
-                if (ctrl is Guna2Button btn)
-                {
-                    btn.FillColor = Color.FromArgb(208, 189, 172);
-                    btn.ForeColor = Color.Black;
-                }
-            }
+            allBtn.FillColor = Color.FromArgb(208, 189, 172);
+            allBtn.ForeColor = Color.Black;
+
+            foodBtn.FillColor = Color.FromArgb(208, 189, 172);
+            foodBtn.ForeColor = Color.Black;
+
+            servicesBtn.FillColor = Color.FromArgb(208, 189, 172);
+            servicesBtn.ForeColor = Color.Black;
+
+            hygieneBtn.FillColor = Color.FromArgb(208, 189, 172);
+            hygieneBtn.ForeColor = Color.Black;
+
+
         }
 
         private void SetupGridColumns()
@@ -204,11 +210,40 @@ namespace LuxentrixContentManagementSystem.Forms.Food_Menu_Forms
         {
             ResetButtons();
             ApplyFilters();
-             allBtn.FillColor = Color.FromArgb(133, 102, 84);
+            allBtn.FillColor = Color.FromArgb(133, 102, 84);
             allBtn.ForeColor = Color.White;
         }
 
         private void mainPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void headerTableLayoutPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void addButton_Click(object sender, EventArgs e)
+        {
+
+            overlayForm overlay = new overlayForm();
+            overlay.Show(); 
+
+            using (addAmenityForm addForm = new addAmenityForm())
+            {
+                addForm.StartPosition = FormStartPosition.CenterScreen;
+
+                if (addForm.ShowDialog() == DialogResult.OK)
+                {
+                    LoadAmenities();
+                }
+            }
+
+            overlay.Close(); 
+        }
+
+        private void overlayPanel_Paint(object sender, PaintEventArgs e)
         {
 
         }

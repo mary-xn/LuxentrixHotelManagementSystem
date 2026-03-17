@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LuxentrixContentManagementSystem")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+98c2075a545ab4218086c0d9f0fbb3ef0a17b48b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+10b8222cd88475bcc1b82ce97beb12e55950d0dd")]
 [assembly: System.Reflection.AssemblyProductAttribute("LuxentrixContentManagementSystem")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LuxentrixContentManagementSystem")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -118,6 +118,23 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="addButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAAFNJREFUaEPtzzEKgEAQBMH7/6c10cRMTs8WqmDSZXsMAGCJ7djvCakRUiOkRkiN
+        kBohNULecD7z1R5zPbx6CalnZgipEVIjpEZIjZAaITVCAICbdnYIe4V/bdpUAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="cancelButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAAQdJREFUaEPt2WsKglAQhuFvFRVtsZYbVKspBvrgIAfJ49yOzPtHEdF58AIiUFVV
+        daRuAC7LjQHJDDLLUHcAHwDPYIycW2aQWWSmzZ0APH4HeAO4Lndw6NzM8NozQyRGDcEiMOoI5okxQzAP
+        jDmCWWLcEMwC445gmpgwBNPAhCPYHkwaBBvBpEOwLZi0CPYPJj2CrWGmQbAeZjoEa78hZNmuR37bDNVe
+        memuRFt7O/WemSk6xK3Ve7B7L4DU9RBsGswagqXH/INgaTFbECwdZgTB0mD2IFg4RgPBwjCaCOaOsUAw
+        N4wlgpljPBDMDOOJYOqYCARTw0QimArmML/epEP8DK2qqsrXFwklyc9xCJ46AAAAAElFTkSuQmCC
+</value>
+  </data>
   <data name="addBtn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL

@@ -11,6 +11,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace LuxentrixContentManagementSystem.Forms.Room_Forms
 {
@@ -20,6 +21,7 @@ namespace LuxentrixContentManagementSystem.Forms.Room_Forms
         private DataView roomsView;
         private DataTable roomTypesTable = RoomTypeStore.Table;
         private bool isRoomTypesView = false;
+
 
         public RoomView()
         {
@@ -34,9 +36,11 @@ namespace LuxentrixContentManagementSystem.Forms.Room_Forms
             StyleRoomsGrid();
             LoadStatusComboBox();
             LoadRoomTypeComboBox();
+            LoadRoomFloorComboBox();
             LoadRooms();
+            filterPanel.Visible = false;
             //addRoomBtn.Visible = false;
-            deleteRoomTypeBtn.Visible = false;
+            //deleteRoomTypeBtn.Visible = false;
 
         }
 
@@ -56,12 +60,34 @@ namespace LuxentrixContentManagementSystem.Forms.Room_Forms
             roomsTable.Columns.Add("RoomStatus");
             roomsTable.Columns.Add("Remarks");
 
+            // FLOOR 1 - STANDARD
             roomsTable.Rows.Add("101", "1", "Standard", "Vacant", "");
             roomsTable.Rows.Add("102", "1", "Standard", "Occupied", "Late checkout");
+            roomsTable.Rows.Add("103", "1", "Standard", "Vacant", "");
+            roomsTable.Rows.Add("104", "1", "Standard", "Cleaning", "");
+            roomsTable.Rows.Add("105", "1", "Standard", "Occupied", "");
+
+            // FLOOR 2 - DELUXE
             roomsTable.Rows.Add("201", "2", "Deluxe", "Cleaning", "");
             roomsTable.Rows.Add("202", "2", "Deluxe", "Vacant", "");
+            roomsTable.Rows.Add("203", "2", "Deluxe", "Occupied", "");
+            roomsTable.Rows.Add("204", "2", "Deluxe", "Maintenance", "TV issue");
+            roomsTable.Rows.Add("205", "2", "Deluxe", "Vacant", "");
+
+            // FLOOR 3 - SUITE
             roomsTable.Rows.Add("301", "3", "Suite", "Maintenance", "AC repair");
             roomsTable.Rows.Add("302", "3", "Suite", "Occupied", "");
+            roomsTable.Rows.Add("303", "3", "Suite", "Vacant", "");
+            roomsTable.Rows.Add("304", "3", "Suite", "Cleaning", "");
+            roomsTable.Rows.Add("305", "3", "Suite", "Occupied", "");
+
+            // FLOOR 4 - MIXED TYPES (more realistic)
+            roomsTable.Rows.Add("401", "4", "Standard", "Vacant", "");
+            roomsTable.Rows.Add("402", "4", "Deluxe", "Occupied", "");
+            roomsTable.Rows.Add("403", "4", "Suite", "Vacant", "");
+            roomsTable.Rows.Add("404", "4", "Deluxe", "Cleaning", "");
+            roomsTable.Rows.Add("405", "4", "Standard", "Maintenance", "Plumbing");
+
 
             roomsView = new DataView(roomsTable);
             roomsDataGridView.AutoGenerateColumns = false;
@@ -72,13 +98,25 @@ namespace LuxentrixContentManagementSystem.Forms.Room_Forms
 
         private void LoadRoomTypeComboBox()
         {
-            //roomTypeComboBox.Items.Clear();
-            //roomTypeComboBox.Items.Add("All");
-            //roomTypeComboBox.Items.Add("Standard");
-            //roomTypeComboBox.Items.Add("Deluxe");
-            //roomTypeComboBox.Items.Add("Suite");
-            //roomTypeComboBox.SelectedIndex = 0;
+            roomTypeComboBox.Items.Clear();
+            roomTypeComboBox.Items.Add("All");
+            roomTypeComboBox.Items.Add("Standard");
+            roomTypeComboBox.Items.Add("Deluxe");
+            roomTypeComboBox.Items.Add("Suite");
+            roomTypeComboBox.SelectedIndex = 0;
         }
+        private void LoadRoomFloorComboBox()
+        {
+            floorComboBox.Items.Clear();
+            floorComboBox.Items.Add("All");
+            floorComboBox.Items.Add("1");
+            floorComboBox.Items.Add("2");
+            floorComboBox.Items.Add("3");
+            floorComboBox.Items.Add("4");
+            floorComboBox.SelectedIndex = 0;
+        }
+
+
 
         private void LoadRoomTypes()
         {
@@ -151,21 +189,28 @@ namespace LuxentrixContentManagementSystem.Forms.Room_Forms
                 );
             }
 
-            //if (statusComboBox.SelectedIndex > 0)
-            //{
-            //    filters.Add(
-            //        $"RoomStatus = '{statusComboBox.Text.Replace("'", "''")}'"
-            //    );
-            //}
+            if (statusComboBox.SelectedIndex > 0)
+            {
+                filters.Add(
+                    $"RoomStatus = '{statusComboBox.Text.Replace("'", "''")}'"
+               );
+            }
 
-            //if (roomTypeComboBox.SelectedIndex > 0)
-            //{
-            //    filters.Add(
-            //        $"RoomTypeName = '{roomTypeComboBox.Text.Replace("'", "''")}'"
-            //    );
-            //}
+            if (roomTypeComboBox.SelectedIndex > 0)
+            {
+                filters.Add(
+                    $"RoomTypeName = '{roomTypeComboBox.Text.Replace("'", "''")}'"
+                );
+            }
 
-            // ✅ IMPORTANT FIX
+            if (floorComboBox.SelectedIndex > 0)
+            {
+                filters.Add(
+                    $"FloorNumber = '{floorComboBox.Text.Replace("'", "''")}'"
+                );
+            }
+
+
             roomsView.RowFilter = filters.Count == 0
                 ? null
                 : string.Join(" AND ", filters);
@@ -262,6 +307,7 @@ namespace LuxentrixContentManagementSystem.Forms.Room_Forms
         private void statusComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             ApplyFilters();
+            filterPanel.Visible = false;
         }
 
         private void roomTypeComboBox_SelectedIndexChanged(object sender, EventArgs e)
@@ -301,21 +347,21 @@ namespace LuxentrixContentManagementSystem.Forms.Room_Forms
         {
             if (isRoomTypesView)
             {
-              //  addRoomBtn.Visible = true;
+                //  addRoomBtn.Visible = true;
                 statusComboBox.Visible = false;
                 // statusLabel.Visible = false;
             }
             else
             {
-               // addRoomBtn.Visible = false;
+                // addRoomBtn.Visible = false;
                 statusComboBox.Visible = true;
             }
         }
 
         private void roomsDataGridView_SelectionChanged(object sender, EventArgs e)
         {
-            deleteRoomTypeBtn.Enabled = true;
-            deleteRoomTypeBtn.Visible = true;
+            // deleteRoomTypeBtn.Enabled = true;
+            // deleteRoomTypeBtn.Visible = true;
             if (roomsDataGridView.CurrentRow == null)
             {
                 return;
@@ -336,8 +382,6 @@ namespace LuxentrixContentManagementSystem.Forms.Room_Forms
             ResetButtons();
             LoadRoomTypes();
             UpdateControlVisibility();
-            roomTypesBtn.FillColor = Color.FromArgb(133, 102, 84);
-            roomTypesBtn.ForeColor = Color.White;
         }
         private void roomsBtn_Click(object sender, EventArgs e)
         {
@@ -415,6 +459,55 @@ namespace LuxentrixContentManagementSystem.Forms.Room_Forms
         private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void statusComboBox_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+
+            ApplyFilters();
+            filterPanel.Visible = false;
+        }
+
+        private void roomTypeComboBox_SelectedIndexChanged_2(object sender, EventArgs e)
+        {
+            ApplyFilters();
+            filterPanel.Visible = false;
+        }
+
+        private void floorComboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            ApplyFilters();
+            filterPanel.Visible = false;
+        }
+
+        private void filterButton_Click(object sender, EventArgs e)
+        {
+            if (filterPanel.Visible)
+            {
+                filterPanel.Visible = false;
+                return;
+            }
+            PositionUserPanel();
+            filterPanel.Visible = true;
+        }
+
+        private void PositionUserPanel()
+        {
+            int x = headerPanel.Width - filterPanel.Width - 8;
+            int y = headerPanel.Height - 70; 
+
+            filterPanel.Location = new Point(x, y);
+            filterPanel.BringToFront();
+        }
+
+        private void filterSettingLayoutPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void searchRoomTxtBox_TextChanged_1(object sender, EventArgs e)
+        {
+            ApplyFilters();
         }
     }
 }

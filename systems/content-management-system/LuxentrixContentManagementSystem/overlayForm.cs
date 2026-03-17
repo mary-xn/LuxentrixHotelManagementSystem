@@ -8,19 +8,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace LuxentrixContentManagementSystem.Forms.Food_Menu_Forms
+namespace LuxentrixContentManagementSystem
 {
-    public partial class addFoodMenuForm : Form
+    public partial class overlayForm : Form
     {
-        public addFoodMenuForm()
+        public overlayForm()
         {
             InitializeComponent();
-            this.StartPosition = FormStartPosition.CenterParent;
         }
 
-        private void formPanel_Paint(object sender, PaintEventArgs e)
+        private void overlayForm_Load(object sender, EventArgs e)
         {
 
+            this.WindowState = FormWindowState.Maximized;
         }
     }
 }

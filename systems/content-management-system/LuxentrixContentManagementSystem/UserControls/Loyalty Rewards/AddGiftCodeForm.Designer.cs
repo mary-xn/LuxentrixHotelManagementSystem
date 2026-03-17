@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -43,8 +43,8 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             mainPanel = new Guna.UI2.WinForms.Guna2Panel();
             durationComboBox = new Guna.UI2.WinForms.Guna2ComboBox();
             stockTextBox = new Guna.UI2.WinForms.Guna2TextBox();
@@ -54,10 +54,10 @@
             guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             addBtn = new Guna.UI2.WinForms.Guna2Button();
             cancelBtn = new Guna.UI2.WinForms.Guna2Button();
-            addGiftCode = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            roomIcon = new Guna.UI2.WinForms.Guna2PictureBox();
             roomTypeComboBox = new Guna.UI2.WinForms.Guna2ComboBox();
             roomTypeLabel = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            addRoomFormLabel = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            roomIcon = new Guna.UI2.WinForms.Guna2PictureBox();
             mainPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)roomIcon).BeginInit();
             SuspendLayout();
@@ -72,15 +72,13 @@
             mainPanel.Controls.Add(guna2HtmlLabel2);
             mainPanel.Controls.Add(addBtn);
             mainPanel.Controls.Add(cancelBtn);
-            mainPanel.Controls.Add(addGiftCode);
-            mainPanel.Controls.Add(roomIcon);
             mainPanel.Controls.Add(roomTypeComboBox);
             mainPanel.Controls.Add(roomTypeLabel);
-            mainPanel.CustomizableEdges = customizableEdges15;
+            mainPanel.CustomizableEdges = customizableEdges13;
             mainPanel.Dock = DockStyle.Fill;
             mainPanel.Location = new Point(0, 0);
             mainPanel.Name = "mainPanel";
-            mainPanel.ShadowDecoration.CustomizableEdges = customizableEdges16;
+            mainPanel.ShadowDecoration.CustomizableEdges = customizableEdges14;
             mainPanel.Size = new Size(784, 561);
             mainPanel.TabIndex = 1;
             mainPanel.Paint += mainPanel_Paint;
@@ -238,36 +236,12 @@
             cancelBtn.TextAlign = HorizontalAlignment.Left;
             cancelBtn.Click += cancelBtn_Click;
             // 
-            // addGiftCode
-            // 
-            addGiftCode.BackColor = Color.Transparent;
-            addGiftCode.Font = new Font("Alegre Sans", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            addGiftCode.Location = new Point(376, 26);
-            addGiftCode.Name = "addGiftCode";
-            addGiftCode.Size = new Size(116, 24);
-            addGiftCode.TabIndex = 68;
-            addGiftCode.Text = "add gift code form";
-            // 
-            // roomIcon
-            // 
-            roomIcon.CustomizableEdges = customizableEdges11;
-            roomIcon.Image = Properties.Resources.giftIcon;
-            roomIcon.ImageRotate = 0F;
-            roomIcon.InitialImage = Properties.Resources.giftIcon;
-            roomIcon.Location = new Point(309, 13);
-            roomIcon.Name = "roomIcon";
-            roomIcon.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            roomIcon.Size = new Size(50, 50);
-            roomIcon.SizeMode = PictureBoxSizeMode.AutoSize;
-            roomIcon.TabIndex = 67;
-            roomIcon.TabStop = false;
-            // 
             // roomTypeComboBox
             // 
             roomTypeComboBox.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             roomTypeComboBox.BackColor = Color.Transparent;
             roomTypeComboBox.BorderRadius = 5;
-            roomTypeComboBox.CustomizableEdges = customizableEdges13;
+            roomTypeComboBox.CustomizableEdges = customizableEdges11;
             roomTypeComboBox.DrawMode = DrawMode.OwnerDrawFixed;
             roomTypeComboBox.DropDownStyle = ComboBoxStyle.DropDownList;
             roomTypeComboBox.FillColor = Color.FromArgb(208, 189, 172);
@@ -278,7 +252,7 @@
             roomTypeComboBox.ItemHeight = 30;
             roomTypeComboBox.Location = new Point(445, 120);
             roomTypeComboBox.Name = "roomTypeComboBox";
-            roomTypeComboBox.ShadowDecoration.CustomizableEdges = customizableEdges14;
+            roomTypeComboBox.ShadowDecoration.CustomizableEdges = customizableEdges12;
             roomTypeComboBox.Size = new Size(204, 36);
             roomTypeComboBox.TabIndex = 66;
             roomTypeComboBox.SelectedIndexChanged += roomTypeComboBox_SelectedIndexChanged;
@@ -293,12 +267,39 @@
             roomTypeLabel.TabIndex = 65;
             roomTypeLabel.Text = "Room Type:";
             // 
+            // addRoomFormLabel
+            // 
+            addRoomFormLabel.BackColor = Color.Transparent;
+            addRoomFormLabel.Font = new Font("Alegre Sans", 30F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            addRoomFormLabel.Location = new Point(307, 23);
+            addRoomFormLabel.Name = "addRoomFormLabel";
+            addRoomFormLabel.Size = new Size(228, 44);
+            addRoomFormLabel.TabIndex = 55;
+            addRoomFormLabel.Text = "Add GIFT CODE FORM";
+            // 
+            // roomIcon
+            // 
+            roomIcon.CustomizableEdges = customizableEdges15;
+            roomIcon.Image = Properties.Resources.giftIcon;
+            roomIcon.ImageRotate = 0F;
+            roomIcon.InitialImage = Properties.Resources.giftIcon;
+            roomIcon.Location = new Point(234, 21);
+            roomIcon.Name = "roomIcon";
+            roomIcon.ShadowDecoration.CustomizableEdges = customizableEdges16;
+            roomIcon.Size = new Size(50, 50);
+            roomIcon.SizeMode = PictureBoxSizeMode.AutoSize;
+            roomIcon.TabIndex = 54;
+            roomIcon.TabStop = false;
+            // 
             // AddGiftCodeForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(784, 561);
+            Controls.Add(addRoomFormLabel);
+            Controls.Add(roomIcon);
             Controls.Add(mainPanel);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "AddGiftCodeForm";
             Text = "AddGiftCodeForm";
             Load += AddGiftCodeForm_Load;
@@ -306,6 +307,7 @@
             mainPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)roomIcon).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -318,10 +320,10 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
         private Guna.UI2.WinForms.Guna2Button addBtn;
         private Guna.UI2.WinForms.Guna2Button cancelBtn;
-        private Guna.UI2.WinForms.Guna2HtmlLabel addGiftCode;
-        private Guna.UI2.WinForms.Guna2PictureBox roomIcon;
         private Guna.UI2.WinForms.Guna2ComboBox roomTypeComboBox;
         private Guna.UI2.WinForms.Guna2HtmlLabel roomTypeLabel;
         private Guna.UI2.WinForms.Guna2ComboBox durationComboBox;
+        private Guna.UI2.WinForms.Guna2HtmlLabel addRoomFormLabel;
+        private Guna.UI2.WinForms.Guna2PictureBox roomIcon;
     }
 }

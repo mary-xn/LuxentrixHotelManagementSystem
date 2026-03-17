@@ -200,7 +200,7 @@
             userSystemSettingPanel.Controls.Add(userSystemChangeablePanel);
             userSystemSettingPanel.CustomizableEdges = customizableEdges31;
             userSystemSettingPanel.FillColor = Color.FromArgb(208, 189, 172);
-            userSystemSettingPanel.Location = new Point(800, 6);
+            userSystemSettingPanel.Location = new Point(798, 6);
             userSystemSettingPanel.Name = "userSystemSettingPanel";
             userSystemSettingPanel.Padding = new Padding(8);
             userSystemSettingPanel.ShadowDecoration.CustomizableEdges = customizableEdges32;
@@ -664,10 +664,10 @@
             // currentRole
             // 
             currentRole.BackColor = Color.Transparent;
-            currentRole.Dock = DockStyle.Fill;
+            currentRole.Dock = DockStyle.Right;
             currentRole.Font = new Font("Aksioma DEMO", 14.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
             currentRole.ForeColor = SystemColors.ButtonShadow;
-            currentRole.Location = new Point(3, 39);
+            currentRole.Location = new Point(140, 39);
             currentRole.Name = "currentRole";
             currentRole.Size = new Size(40, 17);
             currentRole.TabIndex = 5;
@@ -675,10 +675,10 @@
             // 
             // currentUserName
             // 
-            currentUserName.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             currentUserName.BackColor = Color.Transparent;
+            currentUserName.Dock = DockStyle.Right;
             currentUserName.Font = new Font("Aksioma DEMO", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            currentUserName.Location = new Point(3, 9);
+            currentUserName.Location = new Point(8, 3);
             currentUserName.Name = "currentUserName";
             currentUserName.Size = new Size(172, 24);
             currentUserName.TabIndex = 4;
@@ -686,7 +686,6 @@
             // 
             // userSystemButton
             // 
-            userSystemButton.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             userSystemButton.BackColor = Color.Transparent;
             userSystemButton.BackgroundImageLayout = ImageLayout.None;
             userSystemButton.BorderColor = Color.Transparent;
@@ -704,7 +703,7 @@
             userSystemButton.HoverState.FillColor = Color.FromArgb(133, 102, 84);
             userSystemButton.HoverState.Font = new Font("Aksioma DEMO", 14.2499981F);
             userSystemButton.HoverState.ForeColor = Color.White;
-            userSystemButton.Location = new Point(348, 3);
+            userSystemButton.Location = new Point(343, 3);
             userSystemButton.Name = "userSystemButton";
             userSystemButton.ShadowDecoration.CustomizableEdges = customizableEdges38;
             userSystemButton.Size = new Size(50, 50);

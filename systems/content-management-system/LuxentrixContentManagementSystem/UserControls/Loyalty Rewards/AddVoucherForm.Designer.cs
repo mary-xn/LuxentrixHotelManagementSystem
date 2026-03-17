@@ -238,10 +238,10 @@
             // addRoomFormLabel
             // 
             addRoomFormLabel.BackColor = Color.Transparent;
-            addRoomFormLabel.Font = new Font("Alegre Sans", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            addRoomFormLabel.Location = new Point(376, 28);
+            addRoomFormLabel.Font = new Font("Alegre Sans", 30F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            addRoomFormLabel.Location = new Point(311, 20);
             addRoomFormLabel.Name = "addRoomFormLabel";
-            addRoomFormLabel.Size = new Size(109, 24);
+            addRoomFormLabel.Size = new Size(214, 44);
             addRoomFormLabel.TabIndex = 53;
             addRoomFormLabel.Text = "Add VOUCHER FORM";
             // 
@@ -251,7 +251,7 @@
             roomIcon.Image = Properties.Resources.giftIcon;
             roomIcon.ImageRotate = 0F;
             roomIcon.InitialImage = Properties.Resources.giftIcon;
-            roomIcon.Location = new Point(309, 15);
+            roomIcon.Location = new Point(238, 18);
             roomIcon.Name = "roomIcon";
             roomIcon.ShadowDecoration.CustomizableEdges = customizableEdges12;
             roomIcon.Size = new Size(50, 50);
@@ -265,6 +265,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(784, 561);
             Controls.Add(mainPanel);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "AddVoucherForm";
             Text = "addForm";
             mainPanel.ResumeLayout(false);
