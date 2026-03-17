@@ -35,7 +35,7 @@ namespace LuxentrixContentManagementSystem.Forms.Room_Forms
             LoadStatusComboBox();
             LoadRoomTypeComboBox();
             LoadRooms();
-            addRoomBtn.Visible = false;
+            //addRoomBtn.Visible = false;
             deleteRoomTypeBtn.Visible = false;
 
         }
@@ -72,12 +72,12 @@ namespace LuxentrixContentManagementSystem.Forms.Room_Forms
 
         private void LoadRoomTypeComboBox()
         {
-            roomTypeComboBox.Items.Clear();
-            roomTypeComboBox.Items.Add("All");
-            roomTypeComboBox.Items.Add("Standard");
-            roomTypeComboBox.Items.Add("Deluxe");
-            roomTypeComboBox.Items.Add("Suite");
-            roomTypeComboBox.SelectedIndex = 0;
+            //roomTypeComboBox.Items.Clear();
+            //roomTypeComboBox.Items.Add("All");
+            //roomTypeComboBox.Items.Add("Standard");
+            //roomTypeComboBox.Items.Add("Deluxe");
+            //roomTypeComboBox.Items.Add("Suite");
+            //roomTypeComboBox.SelectedIndex = 0;
         }
 
         private void LoadRoomTypes()
@@ -151,19 +151,19 @@ namespace LuxentrixContentManagementSystem.Forms.Room_Forms
                 );
             }
 
-            if (statusComboBox.SelectedIndex > 0)
-            {
-                filters.Add(
-                    $"RoomStatus = '{statusComboBox.Text.Replace("'", "''")}'"
-                );
-            }
+            //if (statusComboBox.SelectedIndex > 0)
+            //{
+            //    filters.Add(
+            //        $"RoomStatus = '{statusComboBox.Text.Replace("'", "''")}'"
+            //    );
+            //}
 
-            if (roomTypeComboBox.SelectedIndex > 0)
-            {
-                filters.Add(
-                    $"RoomTypeName = '{roomTypeComboBox.Text.Replace("'", "''")}'"
-                );
-            }
+            //if (roomTypeComboBox.SelectedIndex > 0)
+            //{
+            //    filters.Add(
+            //        $"RoomTypeName = '{roomTypeComboBox.Text.Replace("'", "''")}'"
+            //    );
+            //}
 
             // ✅ IMPORTANT FIX
             roomsView.RowFilter = filters.Count == 0
@@ -301,13 +301,13 @@ namespace LuxentrixContentManagementSystem.Forms.Room_Forms
         {
             if (isRoomTypesView)
             {
-                addRoomBtn.Visible = true;
+              //  addRoomBtn.Visible = true;
                 statusComboBox.Visible = false;
-                statusLabel.Visible = false;
+                // statusLabel.Visible = false;
             }
             else
             {
-                addRoomBtn.Visible = false;
+               // addRoomBtn.Visible = false;
                 statusComboBox.Visible = true;
             }
         }
@@ -395,6 +395,26 @@ namespace LuxentrixContentManagementSystem.Forms.Room_Forms
 
         private void roomsDataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel6_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void RoomView_Load_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

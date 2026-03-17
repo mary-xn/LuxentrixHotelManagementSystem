@@ -8,7 +8,6 @@ namespace LuxentrixContentManagementSystem.Core
         public static DataTable GiftCodes { get; } = CreateGiftCodesTable();
         public static DataTable Rewards { get; } = CreateRewardsTable();
 
-        // ✅ AUTO-LOGGER (added)
         static LoyaltyStore()
         {
             AttachLogging(Vouchers, "Loyalty / Vouchers");
@@ -16,7 +15,6 @@ namespace LuxentrixContentManagementSystem.Core
             AttachLogging(Rewards, "Loyalty / Rewards");
         }
 
-        // ✅ shared logging logic
         private static void AttachLogging(DataTable table, string module)
         {
             table.RowChanged += (s, e) =>
@@ -34,9 +32,6 @@ namespace LuxentrixContentManagementSystem.Core
             };
         }
 
-        // =========================
-        // YOUR ORIGINAL CODE (UNCHANGED)
-        // =========================
         private static DataTable CreateVouchersTable()
         {
             DataTable table = new DataTable();
@@ -44,13 +39,15 @@ namespace LuxentrixContentManagementSystem.Core
             table.Columns.Add("VoucherCode");
             table.Columns.Add("RoomType");
             table.Columns.Add("Discount");
+            table.Columns.Add("Date Created");
+            table.Columns.Add("Dte Expiry");
             table.Columns.Add("Stocks", typeof(string));
             table.Columns.Add("Claimed", typeof(string));
 
-            table.Rows.Add("WELCOME10-ST", "Standard", "10%", "100", "25");
-            table.Rows.Add("ROOM15-DX", "Deluxe", "15%", "60", "18");
-            table.Rows.Add("SPA20-PR", "Premium", "20%", "40", "10");
-            table.Rows.Add("VIP25-EX", "Executive", "25%", "20", "4");
+            table.Rows.Add("WELCOME10-ST", "Standard", "10%","01-10-2026", "03-21-2026", "100", "25");
+            table.Rows.Add("ROOM15-DX", "Deluxe", "15%", "01-10-2026", "03-21-2026", "60", "18");
+            table.Rows.Add("SPA20-PR", "Premium", "20%", "01-10-2026", "03-21-2026", "40", "10");
+            table.Rows.Add("VIP25-EX", "Executive", "25%", "01-10-2026", "03-21-2026", "20", "4");
 
             return table;
         }
@@ -63,13 +60,12 @@ namespace LuxentrixContentManagementSystem.Core
             table.Columns.Add("RoomType");
             table.Columns.Add("HoursStay");
             table.Columns.Add("Discount");
-            table.Columns.Add("Stocks", typeof(string));
-            table.Columns.Add("Claimed", typeof(string));
+            table.Columns.Add("Status", typeof(string));
 
-            table.Rows.Add("GC-ST-3H", "Standard", "3", "100%", "20", "5");
-            table.Rows.Add("GC-ST-6H", "Standard", "6", "100%", "15", "3");
-            table.Rows.Add("GC-DX-12H", "Deluxe", "12", "100%", "10", "2");
-            table.Rows.Add("GC-DX-24H", "Deluxe", "24", "100%", "8", "1");
+            table.Rows.Add("GC-ST-3H", "Standard", "3", "100%", "Claimed");
+            table.Rows.Add("GC-ST-6H", "Standard", "6", "100%", "Unclaimed");
+            table.Rows.Add("GC-DX-12H", "Deluxe", "12", "100%", "Unclaimed");
+            table.Rows.Add("GC-DX-24H", "Deluxe", "24", "100%", "Claimed");
 
             return table;
         }

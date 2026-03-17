@@ -28,33 +28,37 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(changeNameForm));
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(changeNameForm));
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             mainPanel = new Guna.UI2.WinForms.Guna2Panel();
+            newNameTxtBox = new Guna.UI2.WinForms.Guna2TextBox();
+            passwordTxtBox = new Guna.UI2.WinForms.Guna2TextBox();
+            changeNameBtn = new Guna.UI2.WinForms.Guna2Button();
             guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             addBtn = new Guna.UI2.WinForms.Guna2Button();
             cancelBtn = new Guna.UI2.WinForms.Guna2Button();
             changePassLabel = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            changeNameBtn = new Guna.UI2.WinForms.Guna2Button();
-            passwordTxtBox = new Guna.UI2.WinForms.Guna2TextBox();
-            newNameTxtBox = new Guna.UI2.WinForms.Guna2TextBox();
+            exitButton = new Guna.UI2.WinForms.Guna2Button();
             mainPanel.SuspendLayout();
             SuspendLayout();
             // 
             // mainPanel
             // 
+            mainPanel.Controls.Add(exitButton);
             mainPanel.Controls.Add(newNameTxtBox);
             mainPanel.Controls.Add(passwordTxtBox);
             mainPanel.Controls.Add(changeNameBtn);
@@ -63,13 +67,86 @@
             mainPanel.Controls.Add(addBtn);
             mainPanel.Controls.Add(cancelBtn);
             mainPanel.Controls.Add(changePassLabel);
-            mainPanel.CustomizableEdges = customizableEdges11;
+            mainPanel.CustomizableEdges = customizableEdges13;
             mainPanel.Dock = DockStyle.Fill;
             mainPanel.Location = new Point(0, 0);
             mainPanel.Name = "mainPanel";
-            mainPanel.ShadowDecoration.CustomizableEdges = customizableEdges12;
+            mainPanel.ShadowDecoration.CustomizableEdges = customizableEdges14;
             mainPanel.Size = new Size(471, 377);
             mainPanel.TabIndex = 3;
+            // 
+            // newNameTxtBox
+            // 
+            newNameTxtBox.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            newNameTxtBox.BorderRadius = 5;
+            newNameTxtBox.CustomizableEdges = customizableEdges3;
+            newNameTxtBox.DefaultText = "";
+            newNameTxtBox.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            newNameTxtBox.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            newNameTxtBox.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            newNameTxtBox.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            newNameTxtBox.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            newNameTxtBox.Font = new Font("Aksioma DEMO", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            newNameTxtBox.ForeColor = Color.Black;
+            newNameTxtBox.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            newNameTxtBox.Location = new Point(36, 120);
+            newNameTxtBox.Margin = new Padding(2, 3, 2, 3);
+            newNameTxtBox.Name = "newNameTxtBox";
+            newNameTxtBox.PlaceholderText = "";
+            newNameTxtBox.SelectedText = "";
+            newNameTxtBox.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            newNameTxtBox.Size = new Size(393, 44);
+            newNameTxtBox.TabIndex = 93;
+            newNameTxtBox.TextChanged += newNameTxtBox_TextChanged_1;
+            // 
+            // passwordTxtBox
+            // 
+            passwordTxtBox.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            passwordTxtBox.BorderRadius = 5;
+            passwordTxtBox.CustomizableEdges = customizableEdges5;
+            passwordTxtBox.DefaultText = "";
+            passwordTxtBox.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            passwordTxtBox.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            passwordTxtBox.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            passwordTxtBox.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            passwordTxtBox.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            passwordTxtBox.Font = new Font("Aksioma DEMO", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            passwordTxtBox.ForeColor = Color.Black;
+            passwordTxtBox.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            passwordTxtBox.Location = new Point(36, 214);
+            passwordTxtBox.Margin = new Padding(2, 3, 2, 3);
+            passwordTxtBox.Name = "passwordTxtBox";
+            passwordTxtBox.PlaceholderText = "";
+            passwordTxtBox.SelectedText = "";
+            passwordTxtBox.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            passwordTxtBox.Size = new Size(393, 44);
+            passwordTxtBox.TabIndex = 92;
+            passwordTxtBox.TextChanged += passwordTxtBox_TextChanged;
+            // 
+            // changeNameBtn
+            // 
+            changeNameBtn.Anchor = AnchorStyles.None;
+            changeNameBtn.BackColor = Color.Transparent;
+            changeNameBtn.BorderRadius = 5;
+            changeNameBtn.Cursor = Cursors.Hand;
+            changeNameBtn.CustomizableEdges = customizableEdges7;
+            changeNameBtn.DisabledState.BorderColor = Color.DarkGray;
+            changeNameBtn.DisabledState.CustomBorderColor = Color.DarkGray;
+            changeNameBtn.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            changeNameBtn.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            changeNameBtn.FillColor = Color.FromArgb(208, 189, 172);
+            changeNameBtn.Font = new Font("Aksioma DEMO", 14.2499981F);
+            changeNameBtn.ForeColor = Color.Black;
+            changeNameBtn.HoverState.FillColor = Color.FromArgb(208, 189, 172);
+            changeNameBtn.ImageAlign = HorizontalAlignment.Right;
+            changeNameBtn.Location = new Point(36, 309);
+            changeNameBtn.Name = "changeNameBtn";
+            changeNameBtn.PressedColor = Color.FromArgb(133, 102, 84);
+            changeNameBtn.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            changeNameBtn.Size = new Size(393, 41);
+            changeNameBtn.TabIndex = 91;
+            changeNameBtn.Text = "Change name";
+            changeNameBtn.Click += changeNameBtn_Click;
             // 
             // guna2HtmlLabel1
             // 
@@ -97,7 +174,7 @@
             addBtn.BackColor = Color.Transparent;
             addBtn.BorderRadius = 5;
             addBtn.Cursor = Cursors.Hand;
-            addBtn.CustomizableEdges = customizableEdges7;
+            addBtn.CustomizableEdges = customizableEdges9;
             addBtn.DisabledState.BorderColor = Color.DarkGray;
             addBtn.DisabledState.CustomBorderColor = Color.DarkGray;
             addBtn.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -111,7 +188,7 @@
             addBtn.Location = new Point(960, 825);
             addBtn.Name = "addBtn";
             addBtn.PressedColor = Color.FromArgb(133, 102, 84);
-            addBtn.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            addBtn.ShadowDecoration.CustomizableEdges = customizableEdges10;
             addBtn.Size = new Size(82, 34);
             addBtn.TabIndex = 70;
             addBtn.Text = "Add ";
@@ -123,7 +200,7 @@
             cancelBtn.BackColor = Color.Transparent;
             cancelBtn.BorderRadius = 5;
             cancelBtn.Cursor = Cursors.Hand;
-            cancelBtn.CustomizableEdges = customizableEdges9;
+            cancelBtn.CustomizableEdges = customizableEdges11;
             cancelBtn.DisabledState.BorderColor = Color.DarkGray;
             cancelBtn.DisabledState.CustomBorderColor = Color.DarkGray;
             cancelBtn.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -137,7 +214,7 @@
             cancelBtn.Location = new Point(853, 825);
             cancelBtn.Name = "cancelBtn";
             cancelBtn.PressedColor = Color.IndianRed;
-            cancelBtn.ShadowDecoration.CustomizableEdges = customizableEdges10;
+            cancelBtn.ShadowDecoration.CustomizableEdges = customizableEdges12;
             cancelBtn.Size = new Size(86, 34);
             cancelBtn.TabIndex = 69;
             cancelBtn.Text = "Cancel";
@@ -153,78 +230,30 @@
             changePassLabel.TabIndex = 68;
             changePassLabel.Text = "change name";
             // 
-            // changeNameBtn
+            // exitButton
             // 
-            changeNameBtn.Anchor = AnchorStyles.None;
-            changeNameBtn.BackColor = Color.Transparent;
-            changeNameBtn.BorderRadius = 5;
-            changeNameBtn.Cursor = Cursors.Hand;
-            changeNameBtn.CustomizableEdges = customizableEdges5;
-            changeNameBtn.DisabledState.BorderColor = Color.DarkGray;
-            changeNameBtn.DisabledState.CustomBorderColor = Color.DarkGray;
-            changeNameBtn.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            changeNameBtn.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            changeNameBtn.FillColor = Color.FromArgb(208, 189, 172);
-            changeNameBtn.Font = new Font("Aksioma DEMO", 14.2499981F);
-            changeNameBtn.ForeColor = Color.Black;
-            changeNameBtn.HoverState.FillColor = Color.FromArgb(208, 189, 172);
-            changeNameBtn.ImageAlign = HorizontalAlignment.Right;
-            changeNameBtn.Location = new Point(36, 309);
-            changeNameBtn.Name = "changeNameBtn";
-            changeNameBtn.PressedColor = Color.FromArgb(133, 102, 84);
-            changeNameBtn.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            changeNameBtn.Size = new Size(393, 41);
-            changeNameBtn.TabIndex = 91;
-            changeNameBtn.Text = "Change name";
-            changeNameBtn.Click += changeNameBtn_Click;
-            // 
-            // passwordTxtBox
-            // 
-            passwordTxtBox.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            passwordTxtBox.BorderRadius = 5;
-            passwordTxtBox.CustomizableEdges = customizableEdges3;
-            passwordTxtBox.DefaultText = "";
-            passwordTxtBox.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            passwordTxtBox.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            passwordTxtBox.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            passwordTxtBox.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            passwordTxtBox.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            passwordTxtBox.Font = new Font("Aksioma DEMO", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            passwordTxtBox.ForeColor = Color.Black;
-            passwordTxtBox.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            passwordTxtBox.Location = new Point(36, 214);
-            passwordTxtBox.Margin = new Padding(2, 3, 2, 3);
-            passwordTxtBox.Name = "passwordTxtBox";
-            passwordTxtBox.PlaceholderText = "";
-            passwordTxtBox.SelectedText = "";
-            passwordTxtBox.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            passwordTxtBox.Size = new Size(393, 44);
-            passwordTxtBox.TabIndex = 92;
-            passwordTxtBox.TextChanged += passwordTxtBox_TextChanged;
-            // 
-            // newNameTxtBox
-            // 
-            newNameTxtBox.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            newNameTxtBox.BorderRadius = 5;
-            newNameTxtBox.CustomizableEdges = customizableEdges1;
-            newNameTxtBox.DefaultText = "";
-            newNameTxtBox.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            newNameTxtBox.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            newNameTxtBox.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            newNameTxtBox.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            newNameTxtBox.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            newNameTxtBox.Font = new Font("Aksioma DEMO", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            newNameTxtBox.ForeColor = Color.Black;
-            newNameTxtBox.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            newNameTxtBox.Location = new Point(36, 120);
-            newNameTxtBox.Margin = new Padding(2, 3, 2, 3);
-            newNameTxtBox.Name = "newNameTxtBox";
-            newNameTxtBox.PlaceholderText = "";
-            newNameTxtBox.SelectedText = "";
-            newNameTxtBox.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            newNameTxtBox.Size = new Size(393, 44);
-            newNameTxtBox.TabIndex = 93;
-            newNameTxtBox.TextChanged += newNameTxtBox_TextChanged_1;
+            exitButton.Anchor = AnchorStyles.None;
+            exitButton.BackColor = Color.Transparent;
+            exitButton.BorderRadius = 5;
+            exitButton.Cursor = Cursors.Hand;
+            exitButton.CustomizableEdges = customizableEdges1;
+            exitButton.DisabledState.BorderColor = Color.DarkGray;
+            exitButton.DisabledState.CustomBorderColor = Color.DarkGray;
+            exitButton.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            exitButton.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            exitButton.FillColor = Color.Transparent;
+            exitButton.Font = new Font("Aksioma DEMO", 14.2499981F);
+            exitButton.ForeColor = Color.Black;
+            exitButton.HoverState.FillColor = Color.FromArgb(208, 189, 172);
+            exitButton.Image = Properties.Resources.icons8_cancel_50;
+            exitButton.ImageSize = new Size(30, 30);
+            exitButton.Location = new Point(439, 0);
+            exitButton.Name = "exitButton";
+            exitButton.PressedColor = Color.Transparent;
+            exitButton.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            exitButton.Size = new Size(29, 41);
+            exitButton.TabIndex = 94;
+            exitButton.Click += exitButton_Click;
             // 
             // changeNameForm
             // 
@@ -232,6 +261,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(471, 377);
             Controls.Add(mainPanel);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "changeNameForm";
             Text = "changeNameForm";
             mainPanel.ResumeLayout(false);
@@ -250,5 +280,6 @@
         private Guna.UI2.WinForms.Guna2TextBox passwordTxtBox;
         private Guna.UI2.WinForms.Guna2Button changeNameBtn;
         private Guna.UI2.WinForms.Guna2TextBox newNameTxtBox;
+        private Guna.UI2.WinForms.Guna2Button exitButton;
     }
 }

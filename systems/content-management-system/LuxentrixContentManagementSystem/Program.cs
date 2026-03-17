@@ -16,8 +16,8 @@ namespace LuxentrixContentManagementSystem
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
 
-            Application.Run(new LogInForm());
-           // Application.Run(new MainDashboard());
+            //Application.Run(new LogInForm());
+           Application.Run(new MainDashboard());
 
 
         }

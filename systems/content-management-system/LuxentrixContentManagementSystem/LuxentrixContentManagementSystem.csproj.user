@@ -37,6 +37,9 @@
     <Compile Update="UserControls\Log In Forms\LogInForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="UserControls\MainDashBoard\InitialDashboardView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="UserControls\Room Forms\RoomView.cs">
       <SubType>UserControl</SubType>
     </Compile>

@@ -37,20 +37,20 @@ namespace LuxentrixContentManagementSystem.Forms
 
         private void CenterLabelInCircle()
         {
-            revenueLabel.Left =
-                (revenueCircleProgressBar.Width - guna2HtmlLabel1.Width) / 2;
+            //revenueLabel.Left =
+            //    (revenueCircleProgressBar.Width - guna2HtmlLabel1.Width) / 2;
 
-            revenueLabel.Top =
-                (revenueCircleProgressBar.Height - guna2HtmlLabel1.Height) / 2;
+            //revenueLabel.Top =
+            //    (revenueCircleProgressBar.Height - guna2HtmlLabel1.Height) / 2;
         }
 
         private void CenterProgressBar()
         {
-            revenueCircleProgressBar.Left =
-                (revenuProgressBarPanel.Width - revenueCircleProgressBar.Width) / 2;
+            //revenueCircleProgressBar.Left =
+            //    (revenuProgressBarPanel.Width - revenueCircleProgressBar.Width) / 2;
 
-            revenueCircleProgressBar.Top =
-                (revenuProgressBarPanel.Height - revenueCircleProgressBar.Height) / 2;
+            //revenueCircleProgressBar.Top =
+            //    (revenuProgressBarPanel.Height - revenueCircleProgressBar.Height) / 2;
         }
 
         private void LoadSampleActivityLogs()

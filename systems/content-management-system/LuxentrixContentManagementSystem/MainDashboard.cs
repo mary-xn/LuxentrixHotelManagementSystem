@@ -52,6 +52,7 @@ namespace LuxentrixContentManagementSystem
             userSystemSettingPanel.BringToFront();
             userSystemSettingPanel.Visible = false;
             currentUserName.Text = Core.UserSession.FullName;
+            currentRole.Text = Core.UserSession.Role.ToString();
             nameLabel.Text = Core.UserSession.FullName;
             SetUserSystemButton();
             userPictureBox.FillColor = Color.FromArgb(208, 189, 172);
@@ -377,10 +378,17 @@ namespace LuxentrixContentManagementSystem
             nameLabel.ForeColor = Color.Black;
         }
 
+        //For change password and change name, I want to make the main panel a bit darker
+        //and show the change password or change name form in the middle of the screen as a dialog
         private void changePasswordBtn_Click(object sender, EventArgs e)
         {
-            var changePasswordForm = new ChangePasswordForm();
+            mainPanelPanel.BackColor = Color.FromArgb(120, 0, 0, 0);
+
+            ChangePasswordForm changePasswordForm = new ChangePasswordForm();
+            changePasswordForm.StartPosition = FormStartPosition.CenterParent;
             changePasswordForm.ShowDialog();
+
+            mainPanelPanel.BackColor = Color.Transparent;
         }
 
         private void ChangeNameBtn_Click(object sender, EventArgs e)
@@ -395,6 +403,16 @@ namespace LuxentrixContentManagementSystem
         }
 
         private void nameLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void currentUserName_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void currentRole_Click(object sender, EventArgs e)
         {
 
         }

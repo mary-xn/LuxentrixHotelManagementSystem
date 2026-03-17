@@ -54,6 +54,8 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -89,8 +91,6 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges56 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges57 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges58 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             mainPanelPanel = new Guna.UI2.WinForms.Guna2Panel();
             contentPanel = new Guna.UI2.WinForms.Guna2Panel();
             userSystemSettingPanel = new Guna.UI2.WinForms.Guna2Panel();
@@ -108,6 +108,7 @@
             namePanel = new Guna.UI2.WinForms.Guna2Panel();
             nameLabel = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2Panel6 = new Guna.UI2.WinForms.Guna2Panel();
+            userPictureBox = new Guna.UI2.WinForms.Guna2Button();
             guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
             userSystemChangeBtn = new Guna.UI2.WinForms.Guna2Button();
             guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
@@ -118,6 +119,8 @@
             commonLabel = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             tableLayoutPanel2 = new TableLayoutPanel();
+            tableLayoutPanel3 = new TableLayoutPanel();
+            currentRole = new Guna.UI2.WinForms.Guna2HtmlLabel();
             currentUserName = new Guna.UI2.WinForms.Guna2HtmlLabel();
             userSystemButton = new Guna.UI2.WinForms.Guna2Button();
             sidePanel = new Guna.UI2.WinForms.Guna2Panel();
@@ -132,7 +135,6 @@
             logoPictureBox = new Guna.UI2.WinForms.Guna2PictureBox();
             guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             logOutConfirmationDialogue = new Guna.UI2.WinForms.Guna2MessageDialog();
-            userPictureBox = new Guna.UI2.WinForms.Guna2Button();
             mainPanelPanel.SuspendLayout();
             contentPanel.SuspendLayout();
             userSystemSettingPanel.SuspendLayout();
@@ -153,6 +155,7 @@
             guna2Panel1.SuspendLayout();
             guna2Panel2.SuspendLayout();
             tableLayoutPanel2.SuspendLayout();
+            tableLayoutPanel3.SuspendLayout();
             sidePanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)logoPictureBox).BeginInit();
             SuspendLayout();
@@ -451,6 +454,32 @@
             guna2Panel6.Size = new Size(63, 50);
             guna2Panel6.TabIndex = 1;
             // 
+            // userPictureBox
+            // 
+            userPictureBox.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            userPictureBox.BackColor = Color.Transparent;
+            userPictureBox.BackgroundImageLayout = ImageLayout.None;
+            userPictureBox.BorderRadius = 25;
+            userPictureBox.BorderThickness = 1;
+            userPictureBox.Cursor = Cursors.Hand;
+            userPictureBox.CustomizableEdges = customizableEdges15;
+            userPictureBox.DisabledState.BorderColor = Color.DarkGray;
+            userPictureBox.DisabledState.CustomBorderColor = Color.DarkGray;
+            userPictureBox.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            userPictureBox.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            userPictureBox.FillColor = Color.FromArgb(208, 189, 172);
+            userPictureBox.Font = new Font("Aksioma DEMO", 14.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            userPictureBox.ForeColor = Color.Black;
+            userPictureBox.HoverState.FillColor = Color.FromArgb(133, 102, 84);
+            userPictureBox.HoverState.Font = new Font("Aksioma DEMO", 14.2499981F);
+            userPictureBox.HoverState.ForeColor = Color.White;
+            userPictureBox.Location = new Point(6, 0);
+            userPictureBox.Name = "userPictureBox";
+            userPictureBox.ShadowDecoration.CustomizableEdges = customizableEdges16;
+            userPictureBox.Size = new Size(50, 50);
+            userPictureBox.TabIndex = 4;
+            userPictureBox.Text = "M";
+            // 
             // guna2Panel4
             // 
             guna2Panel4.Controls.Add(userSystemChangeBtn);
@@ -605,26 +634,53 @@
             // tableLayoutPanel2
             // 
             tableLayoutPanel2.ColumnCount = 2;
-            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 81.79551F));
-            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 18.2044888F));
-            tableLayoutPanel2.Controls.Add(currentUserName, 0, 0);
+            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 85F));
+            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 15F));
+            tableLayoutPanel2.Controls.Add(tableLayoutPanel3, 0, 0);
             tableLayoutPanel2.Controls.Add(userSystemButton, 1, 0);
-            tableLayoutPanel2.Dock = DockStyle.Fill;
+            tableLayoutPanel2.Dock = DockStyle.Right;
             tableLayoutPanel2.Location = new Point(0, 0);
             tableLayoutPanel2.Name = "tableLayoutPanel2";
             tableLayoutPanel2.RowCount = 1;
-            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
             tableLayoutPanel2.Size = new Size(401, 62);
             tableLayoutPanel2.TabIndex = 0;
             // 
+            // tableLayoutPanel3
+            // 
+            tableLayoutPanel3.ColumnCount = 1;
+            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+            tableLayoutPanel3.Controls.Add(currentRole, 0, 1);
+            tableLayoutPanel3.Controls.Add(currentUserName, 0, 0);
+            tableLayoutPanel3.Dock = DockStyle.Right;
+            tableLayoutPanel3.Location = new Point(154, 3);
+            tableLayoutPanel3.Name = "tableLayoutPanel3";
+            tableLayoutPanel3.RowCount = 2;
+            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 65F));
+            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 35F));
+            tableLayoutPanel3.Size = new Size(183, 56);
+            tableLayoutPanel3.TabIndex = 12;
+            // 
+            // currentRole
+            // 
+            currentRole.BackColor = Color.Transparent;
+            currentRole.Dock = DockStyle.Fill;
+            currentRole.Font = new Font("Aksioma DEMO", 14.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            currentRole.ForeColor = SystemColors.ButtonShadow;
+            currentRole.Location = new Point(3, 39);
+            currentRole.Name = "currentRole";
+            currentRole.Size = new Size(40, 17);
+            currentRole.TabIndex = 5;
+            currentRole.Text = "Admin";
+            // 
             // currentUserName
             // 
-            currentUserName.Anchor = AnchorStyles.Right;
+            currentUserName.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             currentUserName.BackColor = Color.Transparent;
-            currentUserName.Font = new Font("Aksioma DEMO", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            currentUserName.Location = new Point(196, 21);
+            currentUserName.Font = new Font("Aksioma DEMO", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            currentUserName.Location = new Point(3, 9);
             currentUserName.Name = "currentUserName";
-            currentUserName.Size = new Size(129, 19);
+            currentUserName.Size = new Size(172, 24);
             currentUserName.TabIndex = 4;
             currentUserName.Text = "Mary Joy Sembrero";
             // 
@@ -928,32 +984,6 @@
             logOutConfirmationDialogue.Style = Guna.UI2.WinForms.MessageDialogStyle.Light;
             logOutConfirmationDialogue.Text = null;
             // 
-            // userPictureBox
-            // 
-            userPictureBox.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            userPictureBox.BackColor = Color.Transparent;
-            userPictureBox.BackgroundImageLayout = ImageLayout.None;
-            userPictureBox.BorderRadius = 25;
-            userPictureBox.BorderThickness = 1;
-            userPictureBox.Cursor = Cursors.Hand;
-            userPictureBox.CustomizableEdges = customizableEdges15;
-            userPictureBox.DisabledState.BorderColor = Color.DarkGray;
-            userPictureBox.DisabledState.CustomBorderColor = Color.DarkGray;
-            userPictureBox.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            userPictureBox.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            userPictureBox.FillColor = Color.FromArgb(208, 189, 172);
-            userPictureBox.Font = new Font("Aksioma DEMO", 14.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            userPictureBox.ForeColor = Color.Black;
-            userPictureBox.HoverState.FillColor = Color.FromArgb(133, 102, 84);
-            userPictureBox.HoverState.Font = new Font("Aksioma DEMO", 14.2499981F);
-            userPictureBox.HoverState.ForeColor = Color.White;
-            userPictureBox.Location = new Point(6, 0);
-            userPictureBox.Name = "userPictureBox";
-            userPictureBox.ShadowDecoration.CustomizableEdges = customizableEdges16;
-            userPictureBox.Size = new Size(50, 50);
-            userPictureBox.TabIndex = 4;
-            userPictureBox.Text = "M";
-            // 
             // MainDashboard
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -986,7 +1016,8 @@
             guna2Panel1.PerformLayout();
             guna2Panel2.ResumeLayout(false);
             tableLayoutPanel2.ResumeLayout(false);
-            tableLayoutPanel2.PerformLayout();
+            tableLayoutPanel3.ResumeLayout(false);
+            tableLayoutPanel3.PerformLayout();
             sidePanel.ResumeLayout(false);
             sidePanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)logoPictureBox).EndInit();
@@ -1026,7 +1057,6 @@
         private Guna.UI2.WinForms.Guna2Button userSystemChangeBtn;
         private Guna.UI2.WinForms.Guna2Button logOutFinalBtn;
         private Guna.UI2.WinForms.Guna2MessageDialog logOutConfirmationDialogue;
-        private Guna.UI2.WinForms.Guna2HtmlLabel currentUserName;
         private TableLayoutPanel tableLayoutPanel2;
         private TableLayoutPanel accSettingLayOutPanel;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel7;
@@ -1037,5 +1067,8 @@
         private Guna.UI2.WinForms.Guna2Button ChangeNameBtn;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel6;
         private Guna.UI2.WinForms.Guna2Button userPictureBox;
+        private TableLayoutPanel tableLayoutPanel3;
+        private Guna.UI2.WinForms.Guna2HtmlLabel currentRole;
+        private Guna.UI2.WinForms.Guna2HtmlLabel currentUserName;
     }
 }

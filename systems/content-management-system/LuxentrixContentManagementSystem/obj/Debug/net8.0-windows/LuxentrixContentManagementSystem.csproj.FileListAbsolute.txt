@@ -177,3 +177,4 @@ C:\Users\Mary Joy Sembrero\Desktop\GitHub\LuxentrixHotelManagementSystem\systems
 C:\Users\Mary Joy Sembrero\Desktop\GitHub\LuxentrixHotelManagementSystem\systems\content-management-system\LuxentrixContentManagementSystem\obj\Debug\net8.0-windows\LuxentrixContentManagementSystem.pdb
 C:\Users\Mary Joy Sembrero\Desktop\GitHub\LuxentrixHotelManagementSystem\systems\content-management-system\LuxentrixContentManagementSystem\obj\Debug\net8.0-windows\LuxentrixContentManagementSystem.genruntimeconfig.cache
 C:\Users\Mary Joy Sembrero\Desktop\GitHub\LuxentrixHotelManagementSystem\systems\content-management-system\LuxentrixContentManagementSystem\obj\Debug\net8.0-windows\ref\LuxentrixContentManagementSystem.dll
+C:\Users\Mary Joy Sembrero\Desktop\GitHub\LuxentrixHotelManagementSystem\systems\content-management-system\LuxentrixContentManagementSystem\obj\Debug\net8.0-windows\LuxentrixContentManagementSystem.UserControls.MainDashBoard.InitialDashboardView.resources

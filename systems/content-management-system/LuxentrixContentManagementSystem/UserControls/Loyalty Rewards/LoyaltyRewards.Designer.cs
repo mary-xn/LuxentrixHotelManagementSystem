@@ -28,46 +28,40 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges25 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges26 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoyaltyRewards));
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoyaltyRewards));
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             mainPanel = new Guna.UI2.WinForms.Guna2Panel();
             contentPanel = new Guna.UI2.WinForms.Guna2Panel();
             guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             loyaltyDataGridView = new Guna.UI2.WinForms.Guna2DataGridView();
             tagsPanel = new Guna.UI2.WinForms.Guna2Panel();
-            loyaltyCardsBtn = new Guna.UI2.WinForms.Guna2Button();
             vouchersBtn = new Guna.UI2.WinForms.Guna2Button();
             addButton = new Guna.UI2.WinForms.Guna2Button();
-            loyaltyRewardsBtn = new Guna.UI2.WinForms.Guna2Button();
             giftCertificatesBtn = new Guna.UI2.WinForms.Guna2Button();
             addRoomBtn = new Guna.UI2.WinForms.Guna2Button();
             headerPanel = new Guna.UI2.WinForms.Guna2Panel();
@@ -89,12 +83,12 @@
             mainPanel.BackColor = Color.White;
             mainPanel.Controls.Add(contentPanel);
             mainPanel.Controls.Add(headerPanel);
-            mainPanel.CustomizableEdges = customizableEdges25;
+            mainPanel.CustomizableEdges = customizableEdges21;
             mainPanel.Dock = DockStyle.Fill;
             mainPanel.Location = new Point(0, 0);
             mainPanel.Name = "mainPanel";
             mainPanel.Padding = new Padding(20);
-            mainPanel.ShadowDecoration.CustomizableEdges = customizableEdges26;
+            mainPanel.ShadowDecoration.CustomizableEdges = customizableEdges22;
             mainPanel.Size = new Size(1267, 814);
             mainPanel.TabIndex = 11;
             // 
@@ -106,11 +100,11 @@
             contentPanel.BorderRadius = 15;
             contentPanel.Controls.Add(guna2Panel2);
             contentPanel.Controls.Add(tagsPanel);
-            contentPanel.CustomizableEdges = customizableEdges17;
+            contentPanel.CustomizableEdges = customizableEdges13;
             contentPanel.Dock = DockStyle.Fill;
             contentPanel.Location = new Point(20, 102);
             contentPanel.Name = "contentPanel";
-            contentPanel.ShadowDecoration.CustomizableEdges = customizableEdges18;
+            contentPanel.ShadowDecoration.CustomizableEdges = customizableEdges14;
             contentPanel.Size = new Size(1227, 692);
             contentPanel.TabIndex = 7;
             // 
@@ -199,48 +193,23 @@
             // 
             // tagsPanel
             // 
-            tagsPanel.Controls.Add(loyaltyCardsBtn);
             tagsPanel.Controls.Add(vouchersBtn);
             tagsPanel.Controls.Add(addButton);
-            tagsPanel.Controls.Add(loyaltyRewardsBtn);
             tagsPanel.Controls.Add(giftCertificatesBtn);
             tagsPanel.Controls.Add(addRoomBtn);
-            tagsPanel.CustomizableEdges = customizableEdges15;
+            tagsPanel.CustomizableEdges = customizableEdges11;
             tagsPanel.Dock = DockStyle.Top;
             tagsPanel.Location = new Point(0, 0);
             tagsPanel.Name = "tagsPanel";
-            tagsPanel.ShadowDecoration.CustomizableEdges = customizableEdges16;
+            tagsPanel.ShadowDecoration.CustomizableEdges = customizableEdges12;
             tagsPanel.Size = new Size(1227, 60);
             tagsPanel.TabIndex = 0;
-            // 
-            // loyaltyCardsBtn
-            // 
-            loyaltyCardsBtn.BorderRadius = 5;
-            loyaltyCardsBtn.Cursor = Cursors.Hand;
-            loyaltyCardsBtn.CustomizableEdges = customizableEdges3;
-            loyaltyCardsBtn.DisabledState.BorderColor = Color.DarkGray;
-            loyaltyCardsBtn.DisabledState.CustomBorderColor = Color.DarkGray;
-            loyaltyCardsBtn.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            loyaltyCardsBtn.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            loyaltyCardsBtn.FillColor = Color.FromArgb(208, 189, 172);
-            loyaltyCardsBtn.Font = new Font("Aksioma DEMO", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            loyaltyCardsBtn.ForeColor = Color.Black;
-            loyaltyCardsBtn.HoverState.FillColor = Color.FromArgb(238, 229, 221);
-            loyaltyCardsBtn.HoverState.ForeColor = Color.Black;
-            loyaltyCardsBtn.Location = new Point(346, 19);
-            loyaltyCardsBtn.Name = "loyaltyCardsBtn";
-            loyaltyCardsBtn.PressedColor = Color.FromArgb(133, 102, 84);
-            loyaltyCardsBtn.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            loyaltyCardsBtn.Size = new Size(116, 35);
-            loyaltyCardsBtn.TabIndex = 4;
-            loyaltyCardsBtn.Text = "Loyalty Cards";
-            loyaltyCardsBtn.Click += loyaltyCardsBtn_Click;
             // 
             // vouchersBtn
             // 
             vouchersBtn.BorderRadius = 5;
             vouchersBtn.Cursor = Cursors.Hand;
-            vouchersBtn.CustomizableEdges = customizableEdges5;
+            vouchersBtn.CustomizableEdges = customizableEdges3;
             vouchersBtn.DisabledState.BorderColor = Color.DarkGray;
             vouchersBtn.DisabledState.CustomBorderColor = Color.DarkGray;
             vouchersBtn.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -253,7 +222,7 @@
             vouchersBtn.Location = new Point(6, 19);
             vouchersBtn.Name = "vouchersBtn";
             vouchersBtn.PressedColor = Color.FromArgb(133, 102, 84);
-            vouchersBtn.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            vouchersBtn.ShadowDecoration.CustomizableEdges = customizableEdges4;
             vouchersBtn.Size = new Size(103, 35);
             vouchersBtn.TabIndex = 3;
             vouchersBtn.Text = "Vouchers";
@@ -265,7 +234,7 @@
             addButton.BackColor = Color.Transparent;
             addButton.BorderRadius = 5;
             addButton.Cursor = Cursors.Hand;
-            addButton.CustomizableEdges = customizableEdges7;
+            addButton.CustomizableEdges = customizableEdges5;
             addButton.DisabledState.BorderColor = Color.DarkGray;
             addButton.DisabledState.CustomBorderColor = Color.DarkGray;
             addButton.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -280,41 +249,18 @@
             addButton.Location = new Point(1094, 19);
             addButton.Name = "addButton";
             addButton.PressedColor = Color.FromArgb(133, 102, 84);
-            addButton.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            addButton.ShadowDecoration.CustomizableEdges = customizableEdges6;
             addButton.Size = new Size(130, 34);
             addButton.TabIndex = 3;
             addButton.Text = "Add Vouchers";
             addButton.TextAlign = HorizontalAlignment.Right;
             addButton.Click += addButton_Click;
             // 
-            // loyaltyRewardsBtn
-            // 
-            loyaltyRewardsBtn.BorderRadius = 5;
-            loyaltyRewardsBtn.Cursor = Cursors.Hand;
-            loyaltyRewardsBtn.CustomizableEdges = customizableEdges9;
-            loyaltyRewardsBtn.DisabledState.BorderColor = Color.DarkGray;
-            loyaltyRewardsBtn.DisabledState.CustomBorderColor = Color.DarkGray;
-            loyaltyRewardsBtn.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            loyaltyRewardsBtn.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            loyaltyRewardsBtn.FillColor = Color.FromArgb(208, 189, 172);
-            loyaltyRewardsBtn.Font = new Font("Aksioma DEMO", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            loyaltyRewardsBtn.ForeColor = Color.Black;
-            loyaltyRewardsBtn.HoverState.FillColor = Color.FromArgb(238, 229, 221);
-            loyaltyRewardsBtn.HoverState.ForeColor = Color.Black;
-            loyaltyRewardsBtn.Location = new Point(224, 19);
-            loyaltyRewardsBtn.Name = "loyaltyRewardsBtn";
-            loyaltyRewardsBtn.PressedColor = Color.FromArgb(133, 102, 84);
-            loyaltyRewardsBtn.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            loyaltyRewardsBtn.Size = new Size(116, 35);
-            loyaltyRewardsBtn.TabIndex = 1;
-            loyaltyRewardsBtn.Text = "Loyalty Rewards";
-            loyaltyRewardsBtn.Click += loyaltyRewardsBtn_Click;
-            // 
             // giftCertificatesBtn
             // 
             giftCertificatesBtn.BorderRadius = 5;
             giftCertificatesBtn.Cursor = Cursors.Hand;
-            giftCertificatesBtn.CustomizableEdges = customizableEdges11;
+            giftCertificatesBtn.CustomizableEdges = customizableEdges7;
             giftCertificatesBtn.DisabledState.BorderColor = Color.DarkGray;
             giftCertificatesBtn.DisabledState.CustomBorderColor = Color.DarkGray;
             giftCertificatesBtn.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -327,7 +273,7 @@
             giftCertificatesBtn.Location = new Point(115, 19);
             giftCertificatesBtn.Name = "giftCertificatesBtn";
             giftCertificatesBtn.PressedColor = Color.FromArgb(133, 102, 84);
-            giftCertificatesBtn.ShadowDecoration.CustomizableEdges = customizableEdges12;
+            giftCertificatesBtn.ShadowDecoration.CustomizableEdges = customizableEdges8;
             giftCertificatesBtn.Size = new Size(103, 35);
             giftCertificatesBtn.TabIndex = 0;
             giftCertificatesBtn.Text = "Gift Codes";
@@ -339,7 +285,7 @@
             addRoomBtn.BackColor = Color.Transparent;
             addRoomBtn.BorderRadius = 5;
             addRoomBtn.Cursor = Cursors.Hand;
-            addRoomBtn.CustomizableEdges = customizableEdges13;
+            addRoomBtn.CustomizableEdges = customizableEdges9;
             addRoomBtn.DisabledState.BorderColor = Color.DarkGray;
             addRoomBtn.DisabledState.CustomBorderColor = Color.DarkGray;
             addRoomBtn.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -354,7 +300,7 @@
             addRoomBtn.Location = new Point(3405, -61);
             addRoomBtn.Name = "addRoomBtn";
             addRoomBtn.PressedColor = Color.FromArgb(133, 102, 84);
-            addRoomBtn.ShadowDecoration.CustomizableEdges = customizableEdges14;
+            addRoomBtn.ShadowDecoration.CustomizableEdges = customizableEdges10;
             addRoomBtn.Size = new Size(130, 34);
             addRoomBtn.TabIndex = 0;
             addRoomBtn.Text = "Add Room";
@@ -363,11 +309,11 @@
             // 
             headerPanel.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             headerPanel.Controls.Add(headerTableLayoutPanel);
-            headerPanel.CustomizableEdges = customizableEdges23;
+            headerPanel.CustomizableEdges = customizableEdges19;
             headerPanel.Dock = DockStyle.Top;
             headerPanel.Location = new Point(20, 20);
             headerPanel.Name = "headerPanel";
-            headerPanel.ShadowDecoration.CustomizableEdges = customizableEdges24;
+            headerPanel.ShadowDecoration.CustomizableEdges = customizableEdges20;
             headerPanel.Size = new Size(1227, 82);
             headerPanel.TabIndex = 6;
             // 
@@ -396,7 +342,7 @@
             searchButton.BackColor = Color.White;
             searchButton.BorderRadius = 5;
             searchButton.Cursor = Cursors.Hand;
-            searchButton.CustomizableEdges = customizableEdges19;
+            searchButton.CustomizableEdges = customizableEdges15;
             searchButton.DisabledState.BorderColor = Color.DarkGray;
             searchButton.DisabledState.CustomBorderColor = Color.DarkGray;
             searchButton.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -411,7 +357,7 @@
             searchButton.Location = new Point(6, 24);
             searchButton.Name = "searchButton";
             searchButton.PressedColor = Color.FromArgb(133, 102, 84);
-            searchButton.ShadowDecoration.CustomizableEdges = customizableEdges20;
+            searchButton.ShadowDecoration.CustomizableEdges = customizableEdges16;
             searchButton.Size = new Size(39, 34);
             searchButton.TabIndex = 1;
             searchButton.Click += searchButton_Click;
@@ -420,7 +366,7 @@
             // 
             searchTxtBox.Anchor = AnchorStyles.Left;
             searchTxtBox.BorderRadius = 5;
-            searchTxtBox.CustomizableEdges = customizableEdges21;
+            searchTxtBox.CustomizableEdges = customizableEdges17;
             searchTxtBox.DefaultText = "";
             searchTxtBox.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             searchTxtBox.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -435,7 +381,7 @@
             searchTxtBox.Name = "searchTxtBox";
             searchTxtBox.PlaceholderText = "Search ";
             searchTxtBox.SelectedText = "";
-            searchTxtBox.ShadowDecoration.CustomizableEdges = customizableEdges22;
+            searchTxtBox.ShadowDecoration.CustomizableEdges = customizableEdges18;
             searchTxtBox.Size = new Size(405, 34);
             searchTxtBox.TabIndex = 2;
             searchTxtBox.TextChanged += searchTxtBox_TextChanged;
@@ -465,14 +411,12 @@
         private Guna.UI2.WinForms.Guna2DataGridView loyaltyDataGridView;
         private Guna.UI2.WinForms.Guna2Panel tagsPanel;
         private Guna.UI2.WinForms.Guna2Button vouchersBtn;
-        private Guna.UI2.WinForms.Guna2Button loyaltyRewardsBtn;
         private Guna.UI2.WinForms.Guna2Button giftCertificatesBtn;
         private Guna.UI2.WinForms.Guna2Button addRoomBtn;
         private Guna.UI2.WinForms.Guna2Panel headerPanel;
         private TableLayoutPanel headerTableLayoutPanel;
         private Guna.UI2.WinForms.Guna2Button searchButton;
         private Guna.UI2.WinForms.Guna2TextBox searchTxtBox;
-        private Guna.UI2.WinForms.Guna2Button loyaltyCardsBtn;
         private Guna.UI2.WinForms.Guna2Button addButton;
     }
 }

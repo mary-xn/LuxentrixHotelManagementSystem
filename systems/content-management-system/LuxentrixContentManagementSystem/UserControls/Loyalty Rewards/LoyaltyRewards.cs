@@ -209,8 +209,8 @@ namespace LuxentrixContentManagementSystem.UserControls.Loyalty_Rewards
             ResetButtons();
             LoadLoyaltyRewards();
             addButton.Text = "Add Reward";
-            loyaltyRewardsBtn.FillColor = Color.FromArgb(133, 102, 84);
-            loyaltyRewardsBtn.ForeColor = Color.White;
+            //loyaltyRewardsBtn.FillColor = Color.FromArgb(133, 102, 84);
+            //loyaltyRewardsBtn.ForeColor = Color.White;
         }
 
         private void loyaltyCardsBtn_Click(object sender, EventArgs e)
@@ -218,8 +218,8 @@ namespace LuxentrixContentManagementSystem.UserControls.Loyalty_Rewards
             ResetButtons();
             LoadLoyaltyCards();
             addButton.Visible = false;
-            loyaltyCardsBtn.FillColor = Color.FromArgb(133, 102, 84);
-            loyaltyCardsBtn.ForeColor = Color.White;
+            //loyaltyCardsBtn.FillColor = Color.FromArgb(133, 102, 84);
+            //loyaltyCardsBtn.ForeColor = Color.White;
 
         }
 
