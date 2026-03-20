@@ -64,7 +64,7 @@ namespace LuxentrixContentManagementSystem.UserControls
             loadingLabel.Text = "Signing you in…";
             loader.Value = 0;
 
-            Application.DoEvents(); 
+            Application.DoEvents();
         }
 
         private async Task AnimateLoading()
@@ -199,20 +199,25 @@ namespace LuxentrixContentManagementSystem.UserControls
                 description: $"User {Core.UserSession.Username} logged in successfully"
             );
 
-           
+
             ShowLoading();
 
             await AnimateLoading();
 
             MainDashboard dashboard = new MainDashboard();
-            dashboard.Opacity = 0;   
+            dashboard.Opacity = 0;
             dashboard.Show();
 
-            await Task.Delay(150);   
+            await Task.Delay(150);
 
             dashboard.Opacity = 1;
             this.Hide();
 
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

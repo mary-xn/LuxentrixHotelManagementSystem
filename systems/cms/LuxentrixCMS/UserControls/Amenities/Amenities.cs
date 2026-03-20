@@ -160,7 +160,6 @@ namespace LuxentrixContentManagementSystem.Forms.Food_Menu_Forms
             amenitiesTable.Rows.Add("Hygiene", "Head & Shoulders Sachet", "18 mL", "₱10.75", 10);
             amenitiesTable.Rows.Add("Hygiene", "Safeguard White Bar Soap", "55 g", "₱41.75", 10);
 
-            amenitiesTable.Rows.Add("Service", "Massage", "30 mins", "₱899.00", "-");
             amenitiesTable.Rows.Add("Service", "Room Cleaning", "Heavy Cleaning", "₱999.00", "-");
 
             amenitiesView = new DataView(amenitiesTable);

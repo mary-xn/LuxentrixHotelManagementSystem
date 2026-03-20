@@ -27,33 +27,43 @@ namespace LuxentrixContentManagementSystem.Core
 
         private void SeedData()
         {
-            // FLOOR 1
+            // FLOOR 1 (8 rooms)
             roomsTable.Rows.Add("101", "1", "Standard", "Vacant", "");
             roomsTable.Rows.Add("102", "1", "Standard", "Occupied", "Late checkout");
             roomsTable.Rows.Add("103", "1", "Standard", "Vacant", "");
             roomsTable.Rows.Add("104", "1", "Standard", "Cleaning", "");
             roomsTable.Rows.Add("105", "1", "Standard", "Occupied", "");
+            roomsTable.Rows.Add("106", "1", "Standard", "Vacant", "");
+            roomsTable.Rows.Add("107", "1", "Standard", "Cleaning", "");
+            roomsTable.Rows.Add("108", "1", "Standard", "Vacant", "");
 
-            // FLOOR 2
+            // FLOOR 2 (8 rooms)
             roomsTable.Rows.Add("201", "2", "Deluxe", "Cleaning", "");
             roomsTable.Rows.Add("202", "2", "Deluxe", "Vacant", "");
             roomsTable.Rows.Add("203", "2", "Deluxe", "Occupied", "");
             roomsTable.Rows.Add("204", "2", "Deluxe", "Maintenance", "TV issue");
             roomsTable.Rows.Add("205", "2", "Deluxe", "Vacant", "");
+            roomsTable.Rows.Add("206", "2", "Deluxe", "Occupied", "");
+            roomsTable.Rows.Add("207", "2", "Deluxe", "Vacant", "");
+            roomsTable.Rows.Add("208", "2", "Deluxe", "Cleaning", "");
 
-            // FLOOR 3
+            // FLOOR 3 (7 rooms)
             roomsTable.Rows.Add("301", "3", "Suite", "Maintenance", "AC repair");
             roomsTable.Rows.Add("302", "3", "Suite", "Occupied", "");
             roomsTable.Rows.Add("303", "3", "Suite", "Vacant", "");
             roomsTable.Rows.Add("304", "3", "Suite", "Cleaning", "");
             roomsTable.Rows.Add("305", "3", "Suite", "Occupied", "");
+            roomsTable.Rows.Add("306", "3", "Suite", "Vacant", "");
+            roomsTable.Rows.Add("307", "3", "Suite", "Cleaning", "");
 
-            // FLOOR 4
+            // FLOOR 4 (7 rooms)
             roomsTable.Rows.Add("401", "4", "Standard", "Vacant", "");
             roomsTable.Rows.Add("402", "4", "Deluxe", "Occupied", "");
             roomsTable.Rows.Add("403", "4", "Suite", "Vacant", "");
             roomsTable.Rows.Add("404", "4", "Deluxe", "Cleaning", "");
             roomsTable.Rows.Add("405", "4", "Standard", "Maintenance", "Plumbing");
+            roomsTable.Rows.Add("406", "4", "Deluxe", "Vacant", "");
+            roomsTable.Rows.Add("407", "4", "Suite", "Occupied", "");
         }
 
         // ✅ Get all rooms

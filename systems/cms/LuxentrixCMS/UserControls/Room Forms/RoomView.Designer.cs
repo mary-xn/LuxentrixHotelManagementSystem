@@ -486,6 +486,7 @@
             floorComboBox.Size = new Size(185, 36);
             floorComboBox.TabIndex = 4;
             floorComboBox.Tag = "";
+            floorComboBox.SelectedIndexChanged += floorComboBox_SelectedIndexChanged_1;
             // 
             // tableLayoutPanel6
             // 

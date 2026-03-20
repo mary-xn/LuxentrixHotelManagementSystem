@@ -494,7 +494,7 @@ namespace LuxentrixContentManagementSystem.Forms.Room_Forms
         private void PositionUserPanel()
         {
             int x = headerPanel.Width - filterPanel.Width - 8;
-            int y = headerPanel.Height - 70; 
+            int y = headerPanel.Height - 70;
 
             filterPanel.Location = new Point(x, y);
             filterPanel.BringToFront();
@@ -508,6 +508,12 @@ namespace LuxentrixContentManagementSystem.Forms.Room_Forms
         private void searchRoomTxtBox_TextChanged_1(object sender, EventArgs e)
         {
             ApplyFilters();
+        }
+
+        private void floorComboBox_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+            ApplyFilters();
+            filterPanel.Visible = false;
         }
     }
 }
