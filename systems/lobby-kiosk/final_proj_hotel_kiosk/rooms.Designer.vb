@@ -26,13 +26,18 @@ Partial Class rooms
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
-        Me.standard_bookingbtn = New Guna.UI2.WinForms.Guna2Button()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.standard_bookingbtn = New Guna.UI2.WinForms.Guna2Button()
         Me.standard_room_picbox = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.total_balance = New System.Windows.Forms.Label()
+        Me.Label19 = New System.Windows.Forms.Label()
+        Me.Label20 = New System.Windows.Forms.Label()
+        Me.number_of_items = New System.Windows.Forms.Label()
+        Me.Label21 = New System.Windows.Forms.Label()
         Me.Guna2Panel3 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
@@ -60,11 +65,7 @@ Partial Class rooms
         Me.footandbev_btn = New Guna.UI2.WinForms.Guna2Button()
         Me.voucher_btn = New Guna.UI2.WinForms.Guna2Button()
         Me.sidebar = New System.Windows.Forms.Panel()
-        Me.total_balance = New System.Windows.Forms.Label()
-        Me.Label19 = New System.Windows.Forms.Label()
-        Me.Label20 = New System.Windows.Forms.Label()
-        Me.number_of_items = New System.Windows.Forms.Label()
-        Me.Label21 = New System.Windows.Forms.Label()
+        Me.Guna2Panel6 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Guna2Panel1.SuspendLayout()
         CType(Me.standard_room_picbox, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Guna2Panel2.SuspendLayout()
@@ -76,6 +77,7 @@ Partial Class rooms
         CType(Me.Guna2PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.logopic, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.sidebar.SuspendLayout()
+        Me.Guna2Panel6.SuspendLayout()
         Me.SuspendLayout()
         '
         'Label1
@@ -83,7 +85,7 @@ Partial Class rooms
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Alegre Sans", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(133, Byte), Integer), CType(CType(102, Byte), Integer), CType(CType(84, Byte), Integer))
-        Me.Label1.Location = New System.Drawing.Point(223, 32)
+        Me.Label1.Location = New System.Drawing.Point(20, 18)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(273, 37)
         Me.Label1.TabIndex = 2
@@ -93,7 +95,7 @@ Partial Class rooms
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Aksioma DEMO", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(227, 69)
+        Me.Label2.Location = New System.Drawing.Point(24, 55)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(490, 17)
         Me.Label2.TabIndex = 3
@@ -115,6 +117,50 @@ Partial Class rooms
         Me.Guna2Panel1.Size = New System.Drawing.Size(588, 165)
         Me.Guna2Panel1.TabIndex = 4
         '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Aksioma DEMO", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(133, Byte), Integer), CType(CType(102, Byte), Integer), CType(CType(84, Byte), Integer))
+        Me.Label6.Location = New System.Drawing.Point(477, 94)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(86, 13)
+        Me.Label6.TabIndex = 4
+        Me.Label6.Text = "Air Conditioning"
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Aksioma DEMO", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(133, Byte), Integer), CType(CType(102, Byte), Integer), CType(CType(84, Byte), Integer))
+        Me.Label5.Location = New System.Drawing.Point(445, 94)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(26, 13)
+        Me.Label5.TabIndex = 3
+        Me.Label5.Text = "Wifi"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Aksioma DEMO", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(133, Byte), Integer), CType(CType(102, Byte), Integer), CType(CType(84, Byte), Integer))
+        Me.Label4.Location = New System.Drawing.Point(348, 94)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(91, 13)
+        Me.Label4.TabIndex = 3
+        Me.Label4.Text = "Queen Sized Bed"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Aksioma DEMO", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(133, Byte), Integer), CType(CType(102, Byte), Integer), CType(CType(84, Byte), Integer))
+        Me.Label3.Location = New System.Drawing.Point(11, 85)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(155, 22)
+        Me.Label3.TabIndex = 2
+        Me.Label3.Text = "Economy Room"
+        '
         'standard_bookingbtn
         '
         Me.standard_bookingbtn.BorderRadius = 25
@@ -130,50 +176,6 @@ Partial Class rooms
         Me.standard_bookingbtn.Size = New System.Drawing.Size(579, 50)
         Me.standard_bookingbtn.TabIndex = 1
         Me.standard_bookingbtn.Text = "View details && book"
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Aksioma DEMO", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(133, Byte), Integer), CType(CType(102, Byte), Integer), CType(CType(84, Byte), Integer))
-        Me.Label3.Location = New System.Drawing.Point(11, 85)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(155, 22)
-        Me.Label3.TabIndex = 2
-        Me.Label3.Text = "Economy Room"
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Aksioma DEMO", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(133, Byte), Integer), CType(CType(102, Byte), Integer), CType(CType(84, Byte), Integer))
-        Me.Label4.Location = New System.Drawing.Point(348, 94)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(91, 13)
-        Me.Label4.TabIndex = 3
-        Me.Label4.Text = "Queen Sized Bed"
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Aksioma DEMO", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(133, Byte), Integer), CType(CType(102, Byte), Integer), CType(CType(84, Byte), Integer))
-        Me.Label5.Location = New System.Drawing.Point(445, 94)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(26, 13)
-        Me.Label5.TabIndex = 3
-        Me.Label5.Text = "Wifi"
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Aksioma DEMO", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(133, Byte), Integer), CType(CType(102, Byte), Integer), CType(CType(84, Byte), Integer))
-        Me.Label6.Location = New System.Drawing.Point(477, 94)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(86, 13)
-        Me.Label6.TabIndex = 4
-        Me.Label6.Text = "Air Conditioning"
         '
         'standard_room_picbox
         '
@@ -201,6 +203,61 @@ Partial Class rooms
         Me.Guna2Panel2.Name = "Guna2Panel2"
         Me.Guna2Panel2.Size = New System.Drawing.Size(648, 86)
         Me.Guna2Panel2.TabIndex = 5
+        '
+        'total_balance
+        '
+        Me.total_balance.AutoSize = True
+        Me.total_balance.Font = New System.Drawing.Font("Aksioma DEMO", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.total_balance.ForeColor = System.Drawing.Color.Black
+        Me.total_balance.Location = New System.Drawing.Point(583, 37)
+        Me.total_balance.Name = "total_balance"
+        Me.total_balance.Size = New System.Drawing.Size(32, 19)
+        Me.total_balance.TabIndex = 7
+        Me.total_balance.Text = "₱0"
+        '
+        'Label19
+        '
+        Me.Label19.AutoSize = True
+        Me.Label19.Font = New System.Drawing.Font("Aksioma DEMO", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label19.ForeColor = System.Drawing.Color.Black
+        Me.Label19.Location = New System.Drawing.Point(6, 17)
+        Me.Label19.Name = "Label19"
+        Me.Label19.Size = New System.Drawing.Size(66, 39)
+        Me.Label19.TabIndex = 6
+        Me.Label19.Text = "🏨"
+        '
+        'Label20
+        '
+        Me.Label20.AutoSize = True
+        Me.Label20.Font = New System.Drawing.Font("Aksioma DEMO", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label20.ForeColor = System.Drawing.Color.Black
+        Me.Label20.Location = New System.Drawing.Point(74, 56)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New System.Drawing.Size(120, 15)
+        Me.Label20.TabIndex = 3
+        Me.Label20.Text = "Tap to view details"
+        '
+        'number_of_items
+        '
+        Me.number_of_items.AutoSize = True
+        Me.number_of_items.Font = New System.Drawing.Font("Aksioma DEMO", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.number_of_items.ForeColor = System.Drawing.Color.Black
+        Me.number_of_items.Location = New System.Drawing.Point(74, 36)
+        Me.number_of_items.Name = "number_of_items"
+        Me.number_of_items.Size = New System.Drawing.Size(52, 15)
+        Me.number_of_items.TabIndex = 4
+        Me.number_of_items.Text = "0 Items"
+        '
+        'Label21
+        '
+        Me.Label21.AutoSize = True
+        Me.Label21.Font = New System.Drawing.Font("Aksioma DEMO", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label21.ForeColor = System.Drawing.Color.Black
+        Me.Label21.Location = New System.Drawing.Point(74, 17)
+        Me.Label21.Name = "Label21"
+        Me.Label21.Size = New System.Drawing.Size(103, 15)
+        Me.Label21.TabIndex = 5
+        Me.Label21.Text = "Booking Details:"
         '
         'Guna2Panel3
         '
@@ -555,73 +612,29 @@ Partial Class rooms
         Me.sidebar.Size = New System.Drawing.Size(203, 961)
         Me.sidebar.TabIndex = 1
         '
-        'total_balance
+        'Guna2Panel6
         '
-        Me.total_balance.AutoSize = True
-        Me.total_balance.Font = New System.Drawing.Font("Aksioma DEMO", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.total_balance.ForeColor = System.Drawing.Color.Black
-        Me.total_balance.Location = New System.Drawing.Point(583, 37)
-        Me.total_balance.Name = "total_balance"
-        Me.total_balance.Size = New System.Drawing.Size(32, 19)
-        Me.total_balance.TabIndex = 7
-        Me.total_balance.Text = "₱0"
-        '
-        'Label19
-        '
-        Me.Label19.AutoSize = True
-        Me.Label19.Font = New System.Drawing.Font("Aksioma DEMO", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label19.ForeColor = System.Drawing.Color.Black
-        Me.Label19.Location = New System.Drawing.Point(6, 17)
-        Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(66, 39)
-        Me.Label19.TabIndex = 6
-        Me.Label19.Text = "🏨"
-        '
-        'Label20
-        '
-        Me.Label20.AutoSize = True
-        Me.Label20.Font = New System.Drawing.Font("Aksioma DEMO", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label20.ForeColor = System.Drawing.Color.Black
-        Me.Label20.Location = New System.Drawing.Point(74, 56)
-        Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(120, 15)
-        Me.Label20.TabIndex = 3
-        Me.Label20.Text = "Tap to view details"
-        '
-        'number_of_items
-        '
-        Me.number_of_items.AutoSize = True
-        Me.number_of_items.Font = New System.Drawing.Font("Aksioma DEMO", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.number_of_items.ForeColor = System.Drawing.Color.Black
-        Me.number_of_items.Location = New System.Drawing.Point(74, 36)
-        Me.number_of_items.Name = "number_of_items"
-        Me.number_of_items.Size = New System.Drawing.Size(52, 15)
-        Me.number_of_items.TabIndex = 4
-        Me.number_of_items.Text = "0 Items"
-        '
-        'Label21
-        '
-        Me.Label21.AutoSize = True
-        Me.Label21.Font = New System.Drawing.Font("Aksioma DEMO", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label21.ForeColor = System.Drawing.Color.Black
-        Me.Label21.Location = New System.Drawing.Point(74, 17)
-        Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(103, 15)
-        Me.Label21.TabIndex = 5
-        Me.Label21.Text = "Booking Details:"
+        Me.Guna2Panel6.BorderColor = System.Drawing.Color.Black
+        Me.Guna2Panel6.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash
+        Me.Guna2Panel6.Controls.Add(Me.Label1)
+        Me.Guna2Panel6.Controls.Add(Me.Label2)
+        Me.Guna2Panel6.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Guna2Panel6.Location = New System.Drawing.Point(203, 0)
+        Me.Guna2Panel6.Name = "Guna2Panel6"
+        Me.Guna2Panel6.Size = New System.Drawing.Size(648, 99)
+        Me.Guna2Panel6.TabIndex = 6
         '
         'rooms
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(233, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(220, Byte), Integer))
+        Me.Controls.Add(Me.Guna2Panel6)
         Me.Controls.Add(Me.Guna2Panel2)
         Me.Controls.Add(Me.Guna2Panel5)
         Me.Controls.Add(Me.Guna2Panel4)
         Me.Controls.Add(Me.Guna2Panel3)
         Me.Controls.Add(Me.Guna2Panel1)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.sidebar)
         Me.Name = "rooms"
         Me.Size = New System.Drawing.Size(851, 961)
@@ -642,8 +655,9 @@ Partial Class rooms
         CType(Me.logopic, System.ComponentModel.ISupportInitialize).EndInit()
         Me.sidebar.ResumeLayout(False)
         Me.sidebar.PerformLayout()
+        Me.Guna2Panel6.ResumeLayout(False)
+        Me.Guna2Panel6.PerformLayout()
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
     Friend WithEvents Label1 As Label
@@ -688,4 +702,5 @@ Partial Class rooms
     Friend WithEvents Label20 As Label
     Friend WithEvents number_of_items As Label
     Friend WithEvents Label21 As Label
+    Friend WithEvents Guna2Panel6 As Guna.UI2.WinForms.Guna2Panel
 End Class
